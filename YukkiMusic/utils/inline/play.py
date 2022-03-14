@@ -45,7 +45,6 @@ def stream_markup(_, videoid):
             )
         ],
     ]
-    return buttons
 
 
 def telegram_markup(_):
