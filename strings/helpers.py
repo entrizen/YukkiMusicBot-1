@@ -43,6 +43,8 @@ HELP_2 = """🎧 <u>**Stream Help :**</u>
 ┣★ /playlist  - Check Playlist
 ┣★ /deleteplaylist - Delete Saved
 ┣★ /play  - Start Playlist
+┣★ /seek - Seek the music to your duration
+┣★ /restart - Restart bot for your chat
 ┗━━━━━━━━━━━━━━
 **Notes** :
 
