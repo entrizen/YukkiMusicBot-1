@@ -58,7 +58,7 @@ def lanuages_keyboard(_):
     #        text="🐶 Cheems",
   #         callback_data=f"languages:cheems",
   #      ),
-  #  )
+   )
     keyboard.row(
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
