@@ -5,7 +5,7 @@
 name : Jawa
 
 # General Strings
-general_1 : "Mbales pesen pangguna utawa wenehi jeneng pangguna utawa id pangguna."
+general_1 : "Bales pesen pangguna utawa wenehi jeneng pangguna utawa id pangguna."
 general_2 : "Ana sing salah."
 general_3 : "Sawetara **pengecualian dumadi** nalika ngolah pesenan sampeyan."
 general_4 : "Sampeyan admin anonim saka grup iki! Bali menyang Akun Panganggo sing duweni Hak Admin."
@@ -65,36 +65,36 @@ admin_22 : "Gagal mengacak.\n\nPerikso antrian : /queue"
 admin_23 : "**Antrian diacak karo {0}**\n\nPerikso antrian sing diacak : /queue"
 admin_24 : "**Gunakake :**\n/loop [enable/disable] utawa [Nomer antarane 1-10]\n\n**Contone :** /loop 5"
 admin_25 : "Fitur **pengulangan** diaktifake karo {0} kanggo **{1}** wektu. Bot saiki bakal mbaleni musik sing diputer saiki ing obrolan swara kanggo **{1}** wektu"
-admin_26 : "Silakan gunakan angka antara 1-10 untuk mengacak antrian."
-admin_27 : "Fitur berhasil dinonaktifkan"
-admin_28 : "**Gunakan :**\n/seek atau /seekback [Durasi dalam detik]"
-admin_29 : "Silakan gunakan detik durasi numerik seperti 10-20-30 detik untuk mencari"
+admin_26 : "Monggo gunakake nomer antarane 1-10 kanggo ngacak antrian."
+admin_27 : "Fitur sampun dinonaktifkan"
+admin_28 : "**Gunakake :**\n/seek utawa /seekback [Durasi ing detik]"
+admin_29 : "Monggo gunakake detik durasi numerik, contone 10-20-30 detik kanggo nggoleki."
 admin_30 : "Maaf, tetapi Anda tidak dapat mencari streaming yang sedang diputar. Itu hanya bisa dilewati atau dihentikan."
-admin_31 : "Bot tidak dapat mencari karena durasi yang diberikan melewati batas. Anda perlu mencari durasi yang lebih rendah dan ingat bahwa waktu 10 detik tersisa setelah mencari.\n\nSaat ini dimainkan** {0}** menit dari **{1}** menit"
-admin_32 : "Harap Tunggu ... Mencari aliran yang sedang berlangsung."
-admin_33 : "Berhasil Mencari Aliran ke {0} menit"
-admin_34 : "Gagal mencari aliran saat ini."
+admin_31 : "Bot ora iso njalanke amarga wektu ne ngelewati wates. Golekno wektu sing luwih sedhela.\n\nSaiki ** {0}** menit saka **{1}** menit"
+admin_32 : "Entheni sedhela... Lagi nggoleki aliran sing lagi mlaku."
+admin_33 : "Berhasil nggoleki aliran ing {0} menit"
+admin_34 : "Gagal nggoleki aliran saiki."
 
 # Bot 
 
 # Start
-start_1 : "Terima kasih sudah menambahkan saya di grup ini.\n\nJika kamu perlu bantuan, gunakan perintah /help"
-start_2 : "Perkenalkan namaku {0}.\n\nSaya adalah bot streaming musik dan video di Obrolan Suara Grup. Mendukung pemutaran melalui YouTube Server dan Spotify."
-start_3 : "Terimakasih sudah menambahkan saya di grup ini.\n\nGunakan perintah /help untuk mendapatkan bantuan."
-start_4 : "Pemilik bot telah bergabung dengan obrolan Anda."
-start_5 : "Admin bot telah bergabung dengan obrolan Anda."
+start_1 : "Matursuwun sampun nambahaken kawula ing grup niki.\n\nYen sampeyan butuh pitulungan, gunakake /help"
+start_2 : "Kenalipun nami kulo {0}.\n\nKulo niku bot streaming musik lan video ing Obrolan Swara Grup. Kulo saget nyetel saking YouTube Server lan Spotify."
+start_3 : "Matursuwun sampun nambahaken kawula ing grup niki.\n\nGunakaken perintah /help kanggo mbukak pitulungan."
+start_4 : "Wong sing nduwe bot gabung ing obrolan e Sampeyan."
+start_5 : "Admin bot gabung ing obrolan e Sampeyan."
 start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap konversikan Anda **group** ke **supergrup** dan lalu tambahkan saya kembali.\n\n**Cara membuat supergrup?**\n✅ Buat riwayat obrolan grup Anda **bisa dilihat** satu kali."
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah masuk daftar hitam server."
 
 # Help
-help_1 : "Tekan tombol di bawah untuk mendapatkan informasi."
-help_2 : "Tekan tombol di bawah ini untuk mendapatkan bantuan."
+help_1 : "Pejet tombol ing ngisor iki kanggo ngecek bantuan."
+help_2 : "Bantuan."
 
 # Settings
-setting_1 : "⚙️ **Pengaturan**\n\n🖇 **Grup :** {0}\n🔖**Grup ID :** `{1}`\n\n💡 **Pilih tombol fungsi dari bawah yang ingin Anda edit atau ubah.**"
+setting_1 : "⚙️ **Aturan**\n\n🖇 **Grup :** {0}\n🔖**Grup ID :** `{1}`\n\n💡 **Pilih tombol ing ngisor iki sing arep diganti karo Sampeyan.**"
 setting_3 : "🌐 Pengertian\n\n1) Langsung: Memutar perintah penelusuran secara langsung. Menggunakan -v untuk memutar video dalam mode langsung.\n\n2) Di barisan: Mengembalikan Tombol Markup Sebaris untuk memilih antara video & audio."
 setting_4 : "🌐 Pengertian\n\n 👥 Member : Siapa pun dapat menggunakan perintah admin (skip, pause, resume) di grup ini.\n\n🙍 Admin : Hanya admin dan pengguna resmi yang dapat menggunakan perintah admin."
-setting_5 : "Tidak Ada Pengguna Resmi Ditemukan\n\nAnda dapat mengizinkan non-admin untuk menggunakan perintah admin saya dengan /auth dan hapus dengan menggunakan /unauth"
+setting_5 : "Ora ana pengguna sah ing grup iki\n\nSampeyan iso ngijinake non-admin kanggo gunakake perintah admin nganggo /auth lan busak nganggo /unauth"
 setting_9 : "🌐 Pengertian\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
 setting_10 : "🌐 Penertian\n\n1) Grup : Memutar musik di grup tempat perintah diberikan .\n\n2) Saluran : Memutar musik di saluran yang Anda inginkan. Setel id saluran melalui /channelplay"
 setting_11 : "🌐 Pengertian\n\n1) Setiap orang: Siapa pun yang hadir dalam grup ini dapat memutar musik di sini.\n\n2) Hanya Admin: Hanya admin yang dapat memutar musik di grup ini."
@@ -134,8 +134,8 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda per
 # Play 
 
 #Play Callback 
-playcb_1 : "Ini bukan untukmu! Buatlah sesimu sendiri."
-playcb_2 : "Mendapatkan hasil pencarian lainnya"
+playcb_1 : "Iki ora kanggo awakmu! Gawe sesimu dewe."
+playcb_2 : "Lagi proses hasil liyane"
 
 # Channel Play
 cplay_1 : "Anda dapat memutar musik di saluran dari obrolan ini[{0}] ke saluran mana pun atau saluran tertaut obrolan Anda.\n\n**Untuk saluran tertaut :**\n`/{1} terhubung`\n\n**Untuk saluran lainnya :**\n`/{1} [Channel ID]`"
@@ -146,7 +146,7 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** dari saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu dan kemudian mencoba menghubungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🎶 Memproses perintah...."
+play_1 : "💡 Lagi nggoleki...."
 play_2 : "**🏷 Mode Putar Saluran**\n\n🎶 Memproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
 play_3 : "Gagal Memproses Perintah!"
 play_4 : "🖇 **Hanya Admin Mainkan**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -156,7 +156,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang Dari 1 GiB"
 play_10 : "**Fitur Daftar Putar Youtube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "🎫 Judul : **{0}\n\n⏳ Durasi :** {1} menit"
+play_11 : "🎫 Judul : **{0}\n\n⏳ Wektu :** {1} menit"
 play_12 : "**Modus Putar Spotify**\n\nDiminta oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso dan Soundcloud.\n\nKamu bisa memakai /stream untuk M3u8 atau Tautan Jarak Jauh."
@@ -167,7 +167,7 @@ play_18 : "**Obrolan Suara tidak ditemukan**\n\nUntuk menggunakan perintah, haru
 
 
 #Playlist
-playlist_1 : "**Penggunaan:** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\njika kamu mau untuk memainkan Daftar Putar Server Bot! Tekan tombol di bawah ini."
+playlist_1 : "**Gunakake :** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\njika kamu mau untuk memainkan Daftar Putar Server Bot! Tekan tombol di bawah ini."
 playlist_2 : "Mendapatkan daftar putar Anda. Mohon tunggu"
 playlist_3 : "Anda tidak memiliki daftar putar di Server Bot."
 playlist_4 : "Daftar Putar yang Diambil:\n\n"
@@ -202,10 +202,10 @@ tracks_2 : "**Kesalahan**\n\nTidak ada **{0} Top 10 Daftar putar** di server bot
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Gunakan :**\n\n/lyrics [Judul]"
-lyrics_2 : "Mencari Lirik"
-lyrics_3 : "🚫 Gagal mengambil lirik.\n\n💡 **Percobaan mencari :** {0}"
-lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghindari pencarian lirik jenis spam yang panjang."
+lyrics_1 : "**Gunakake :**\n\n/lyrics [Judul]"
+lyrics_2 : "💡 Lagi nggoleki lirik..."
+lyrics_3 : "🚫 Gagal nggoleki lirik.\n\n💡 **Jajal nggoleki :** {0}"
+lyrics_4 : "Pejet tombol ing ngisor iki kanggo njipuk lirik."
 
 #Ping
 ping_1 : "Pong!!!!"
@@ -229,41 +229,41 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu se
 queue_1 : "Tunggu sebentar...."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "🎶 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**⌛ Durasi :** {2}\n👤 **Ditambahkan oleh :** {3}"
+queue_4 : "🎶 Ditambahaken ing Antrian **#{0}\n\n🎫 Judul :** {1}\n**⌛ Wektu :** {2}\n👤 **Ditambahke karo :** {3}"
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
-stream_1 : "🎶 **Streaming** \n\n👤 **Permintaan :** {0}\n💡 **Informasi : **[Klik Disini]({1})"
-stream_2 : "🎶 **Streaming melalui Link** \n\n👤 **Diminta oleh :** {0}"
-stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Durasi** : {1}\n👤**Permintaan :** {2}"
-stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Durasi** : {2}\n👤**Permintaan :** {3}"
+stream_1 : "🎶 **Streaming** \n\n👤 **Panjalukkan :** {0}\n💡 **Informasi : **[Klik Disini]({1})"
+stream_2 : "🎶 **Streaming lewat Link** \n\n👤 **Panjalukkan :** {0}"
+stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Wektu** : {1}\n👤**Panjalukkan :** {2}"
+stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Wektu** : {2}\n👤**Panjalukkan :** {3}"
 
 # Inline Buttons
 
 #General Buttons
 CLOSE_BUTTON  : "Tutup"
 CLOSEMENU_BUTTON  : "Tutup"
-BACK_BUTTON : "Kembali"
-UNBAN_BUTTON : "Buka Blokir"
+BACK_BUTTON : "Balik"
+UNBAN_BUTTON : "Bukak Blokir"
 
 #Lyrics
 L_B_1 : "Dapatkan Lirik"
 
 # Start
-S_B_1 : "Perintah"
-S_B_2 : "Pengaturan"
+S_B_1 : "Pitulungan"
+S_B_2 : "Aturan"
 S_B_3 : "Support"
 S_B_4 : "Channel"
 S_B_5 : "Tambahkan"
 S_B_6 : "Git Repo"
 S_B_7 : "Pemilik"
-S_B_8 : "Menu Perintah"
+S_B_8 : "Dhaptar Perintah"
 
 #Help 
 H_B_1 : "Admin"
-H_B_2 : "Obrolan Suara"
+H_B_2 : "Obrolan Swara"
 H_B_3 : "Bot"
-H_B_4 : "Ekstra"
+H_B_4 : "Tambahan"
 H_B_5 : "Tutup"
 H_B_6 : "Perintah Pengguna Sudo"
 
@@ -280,7 +280,7 @@ P_B_4 : "🎵 Putar Playlist"
 
 #Playlist
 PL_B_1 : "Putar Playlist"
-PL_B_2 : "✚ Simpan ke Daftar Putar ✚"
+PL_B_2 : "✚ Simpen ing Dhaptar Putar ✚"
 PL_B_3 : "Tambahan"
 PL_B_4 : "Mode Putar"
 PL_B_5 : "Hapus Seluruh Daftar Putar"
