@@ -102,7 +102,6 @@ setting_14 : "🌐 Pamahaman\n\nNalika diaktipkeun, Bot bakal ngahapus paréntah
 setting_15 : "Gagal ngabéréskeun peer, Pastikeun anjeun parantos nambihan bot dina saluran anjeun sareng ngamajukeunana salaku admin.\n\nCobian nyetél /channelplay deui.." 
 setting_16 : "🌐 Pamahaman\n\nNalika diaktipkeun, Bot bakal nyarankeun obrolan anjeun unggal 1-2 jam ngeunaan paréntah bot (Kumaha ngagunakeunana, nyaéta paréntah sareng seueur deui) sacara acak."
 
-
 set_cb_1 : "Meunangkeun Panel Kualitas Audio..." 
 set_cb_2 : "Meunangkeun Panel Kualitas Video..."
 set_cb_3 : "Meunangkeun Panel Pamaké Auth ..." 
@@ -198,7 +197,7 @@ tracks_2 : "**Error**\n\nEuweuh **{0} Top 10 Playlist** on bot server. Mangga co
 
 # TOOLS
 
-#Lirik 
+# Lyrics
 lyrics_1 : "**Paké :**\n\n/lyrics [Judul]" 
 lyrics_2 : "Milarian Lirik" 
 lyrics_3 : "🚫 Gagal meunangkeun deui lirik.\n\n💡 **Nyobaan neangan :** {0}" 
@@ -208,12 +207,25 @@ lyrics_4 : "Klik tombol di handap tur meunangkeun lirik nu Anjeun keur pilari ul
 ping_1 : "Pong!!!!" 
 ping_2 : "{0} berpungsi sae sareng ping tina `{1}` ms.\n\nBot uptime nyaeta {2} sarta geus meakeun total {3} gudang server. Beban CPU kira-kira. {4} kalawan konsumsi {5} Ram. Klién Py-Tgcalls ogé gaduh ping `{6}` ms anu saé."
 
-# Tools - Queue
-queue_1 : "Tunggu sebentar...."
-queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
-queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "🎶 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**⌛ Durasi :** {2}\n👤 **Ditambahkan oleh :** {3}"
-queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
+# Song
+song_1 : "Anjeun tiasa ngaunduh Musik atanapi Pidéo tina YouTube ngan ukur dina obrolan pribadi. Mangga ngamimitian kuring dina obrolan pribadi." 
+song_2 : "** Pamakéan:**\n\n/lagu [Ngaran Musik] atawa [Tumbu Youtube]" 
+song_3 : "Direct Link Detected. Abdi henteu tiasa ngaunduh pidéo youtube langsung." 
+song_4 : "**🎫 Judul :**- {0}\n\nPilih jenis nu rék diundeur." 
+song_5 : "Sanes Tautan Youtube anu sah" 
+song_6 : "Meunang Format.. \n\nPunten antosan.." 
+song_7 : "Gagal mendakan format anu sayogi pikeun pidéo. Mangga cobian lagu sanés." 
+song_8 : "Ngundeur Dimimitian\n\nLaju unduhan meureun lambat. Mangga antosan sakedap.." 
+song_9 : "Gagal ngundeur lagu tina Youtube-DL\n\n**Alesan :** {0}" 
+song_10 : "Gagal unggah dina telegram tina server." 
+song_11 : "Unggahan Dimimitian\n\nLaju unggahna bisa jadi lambat. Mangga antosan sakedap.." 
+
+# Tools - Queue 
+queue_1 : "Antosan sakedap...." 
+queue_2 : "Daptar Antrian kosong. Teu kapanggih lagu" 
+queue_3 : "<u>**Antrian Pribadi :</u>** [Tingali Antrian Lain Ti dieu]({0})" 
+queue_4 : "🎶 Ditambahkeun kana Antrian di **#{0}\n\n🎫 Judul :** {1}\n**⌛ Durasi :** {2}\n👤 **Ditambahkeun ku :** {3 }" 
+queue_5 : "Ngan aya hiji lagu dina antrian, Mangga tambahkeun deui kana Daptar pariksa"
 
 # All Streaming Lines
 stream_1 : "🎶 **Streaming** \n\n👤 **Kahoyong :** {0}\n💡 **Inpormasi : **[Klik Disini]({1})"
@@ -263,7 +275,7 @@ P_B_4 : "🎵 Putar Playlist"
 
 #Playlist
 PL_B_1 : "Putar Playlist"
-PL_B_2 : "✚ Tambihkeun kana Daftar Puter ✚"
+PL_B_2 : "✚ Tambihkeun kana Daptar Puter ✚"
 PL_B_3 : "Tambahan"
 PL_B_4 : "Mode Putar"
 PL_B_5 : "Hapus Seluruh Daftar Putar"
