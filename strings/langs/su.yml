@@ -76,31 +76,31 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 # Bot 
 
 # Start
-start_1 : "Terima kasih sudah menambahkan saya di grup ini.\n\nJika kamu perlu bantuan, gunakan perintah /help"
-start_2 : "Perkenalkan namaku {0}.\n\nSaya adalah bot streaming musik dan video di Obrolan Suara Grup. Mendukung pemutaran melalui YouTube Server dan Spotify."
-start_3 : "Terimakasih sudah menambahkan saya di grup ini.\n\nGunakan perintah /help untuk mendapatkan bantuan."
-start_4 : "Pemilik bot telah bergabung dengan obrolan Anda."
-start_5 : "Admin bot telah bergabung dengan obrolan Anda."
-start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap konversikan Anda **group** ke **supergrup** dan lalu tambahkan saya kembali.\n\n**Cara membuat supergrup?**\n✅ Buat riwayat obrolan grup Anda **bisa dilihat** satu kali."
-start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah masuk daftar hitam server."
+start_1 : "Hatur nuhun parantos nambihan abdi ka grup ieu.\n\nUpami peryogi bantosan, paké paréntah /help" 
+start_2 : "Nepangkeun nami abdi {0}.\n\nAbdi bot streaming musik sareng vidéo dina Group Voice Chat. Ngarojong playback via Server YouTube sareng Spotify." 
+start_3 : "Hatur nuhun parantos nambihan abdi ka grup ieu.\n\nPaké paréntah /help pikeun pitulung." 
+start_4 : "Nu boga bot geus ngagabung ka obrolan anjeun." 
+start_5 : "Admin bot geus ngagabung ka obrolan anjeun." 
+start_6 : "❗️ **Supergroup diperlukeun** ️\n\nMangga robah **group** anjeun ka **supergroup** terus tambahkeun kuring deui.\n\n**Kumaha cara nyieun supergroup?** \n✅ Jieun sajarah obrolan grup anjeun **ditingali** sakali." 
+start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus didaptarkeun hideung ku server." 
 
 # Help
-help_1 : "Tekan tombol di bawah untuk mendapatkan informasi."
-help_2 : "Tekan tombol di bawah ini untuk mendapatkan bantuan."
+help_1 : "Pencét tombol di handap pikeun meunangkeun informasi." 
+help_2 : "Pitulung."
 
 # Settings
-setting_1 : "⚙️ **Pengaturan**\n\n🖇 **Grup :** {0}\n🔖**Grup ID :** `{1}`\n\n💡 **Pilih tombol fungsi dari bawah yang ingin Anda edit atau ubah.**"
-setting_3 : "🌐 Pengertian\n\n1) Langsung: Memutar perintah penelusuran secara langsung. Menggunakan -v untuk memutar video dalam mode langsung.\n\n2) Di barisan: Mengembalikan Tombol Markup Sebaris untuk memilih antara video & audio."
-setting_4 : "🌐 Pengertian\n\n 👥 Member : Siapa pun dapat menggunakan perintah admin (skip, pause, resume) di grup ini.\n\n🙍 Admin : Hanya admin dan pengguna resmi yang dapat menggunakan perintah admin."
-setting_5 : "Tidak Ada Pengguna Resmi Ditemukan\n\nAnda dapat mengizinkan non-admin untuk menggunakan perintah admin saya dengan /auth dan hapus dengan menggunakan /unauth"
-setting_9 : "🌐 Pengertian\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
-setting_10 : "🌐 Penertian\n\n1) Grup : Memutar musik di grup tempat perintah diberikan .\n\n2) Saluran : Memutar musik di saluran yang Anda inginkan. Setel id saluran melalui /channelplay"
-setting_11 : "🌐 Pengertian\n\n1) Setiap orang: Siapa pun yang hadir dalam grup ini dapat memutar musik di sini.\n\n2) Hanya Admin: Hanya admin yang dapat memutar musik di grup ini."
-setting_12 : "🚫 Anda tidak memiliki id saluran yang ditentukan untuk mode saluran. Tentukan dengan /channelplay."
-setting_13 : "Tidak dapat mengubah mode putar dalam panggilan grup aktif. Tolong hentikan obrolan suara terlebih dahulu dengan /stop."
-setting_14 : "🌐 Pengertian\n\nSaat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop etc) langsung.\n\nBot akan membutuhkan admin hapus pesan agar ini berfungsi dengan baik."
-setting_15 : "Gagal menyelesaikan rekan, Pastikan Anda telah menambahkan bot di saluran Anda dan mempromosikannya sebagai admin.\n\nCoba atur /channelplay lagi.."
-setting_16 : "🌐 Pengertian\n\nSaat diaktifkan, Bot akan menyarankan obrolan Anda setiap 1-2 jam tentang perintah bot (Cara menggunakannya, yang merupakan perintah dan banyak hal lainnya) secara acak."
+setting_1 : "⚙️ **Setélan**\n\n🖇 **Grup :** {0}\n🔖**ID Grup :** `{1}`\n\n💡 **Pilih konci fungsi ti handap nu rék diédit atawa dirobah.**" 
+setting_3 : "🌐 Definisi\n\n1) Live: Muterkeun paréntah panéangan sacara langsung. Ngagunakeun -v pikeun muterkeun video dina modeu live.\n\n2) Baris: Ngabalikeun Inline Markup Key pikeun milih antara video & audio." 
+setting_4 : "🌐 Ngartos\n\n Anggota : Saha waé tiasa nganggo paréntah admin (skip, ngareureuhkeun, neruskeun) dina grup ieu.\n\n🙍 Admin : Ngan admin jeung pamaké otorisasi bisa make paréntah admin."
+setting_5 : "Teu Dipanggihan Pamaké Otorisasi\n\nAnjeun tiasa ngijinkeun non-admin nganggo paréntah admin abdi sareng /auth sareng ngahapus nganggo /unauth"
+setting_9 : "🌐 Pamahaman\n\nLamun diaktipkeun, Bot bakal ngahapus pesenna sanggeus {0} sangkan obrolan anjeun beresih jeung jelas." 
+setting_10 : "🌐 Harti\n\n1) Grup : Muterkeun musik dina grup tempat paréntah dipasihkeun .\n\n2) Saluran : Muterkeun musik dina saluran nu dipikahoyong. Setel id saluran via /channelplay" 
+setting_11 : "🌐 Pangertian\n\n1) Sarerea: Saha waé nu aya di grup ieu bisa maénkeun musik di dieu.\n\n2) Ngan Admin: Ngan admin nu bisa maénkeun musik dina grup ieu." 
+setting_12 : "🚫 Anjeun teu gaduh id saluran anu ditetepkeun pikeun mode saluran. Sebutkeun sareng /channelplay." 
+setting_13 : "Teu bisa ngarobah mode muter dina panggero grup aktip. Mangga eureun voice chat heula jeung /stop."
+setting_14 : "🌐 Pamahaman\n\nNalika diaktipkeun, Bot bakal ngahapus paréntah anu dieksekusi (/play, /pause, /shuffle, /stop jsb). 
+setting_15 : "Gagal ngabéréskeun peer, Pastikeun anjeun parantos nambihan bot dina saluran anjeun sareng ngamajukeunana salaku admin.\n\nCobian nyetél /channelplay deui.." 
+setting_16 : "🌐 Pamahaman\n\nNalika diaktipkeun, Bot bakal nyarankeun obrolan anjeun unggal 1-2 jam ngeunaan paréntah bot (Kumaha ngagunakeunana, nyaéta paréntah sareng seueur deui) sacara acak."
 
 
 set_cb_1 : "Mendapatkan Panel Kualitas Audio..."
