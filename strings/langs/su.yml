@@ -193,34 +193,20 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu sedang memproses tautan.
 str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Tidak Ada Format Langsung Ditemukan"
 
 #TopPlay
-tracks_1 : "**Pengolahan {0} Top 10 Daftar putar**\nIni bisa memakan waktu beberapa menit(sekitar 3-4 menit).. Harap tunggu...\n\n**👤Diminta oleh:** {1}\n\nCheck Top 10 lagu oleh /gstats"
-tracks_2 : "**Kesalahan**\n\nTidak ada **{0} Top 10 Daftar putar** di server bot. Silakan coba daftar putar lainnya"
+tracks_1 : "**Nyieun {0} 10 Daptar Puter Top**\nIeu butuh sababaraha menit (kira-kira 3-4 menit).. Mangga antosan...\n\n**👤Dipénta ku:** {1 } \n\nPariksa Top 10 lagu ku /gstats" 
+tracks_2 : "**Error**\n\nEuweuh **{0} Top 10 Playlist** on bot server. Mangga cobian daptar puter séjén."
 
 # TOOLS
 
-#Lyrics
-lyrics_1 : "**Gunakan :**\n\n/lyrics [Judul]"
-lyrics_2 : "Mencari Lirik"
-lyrics_3 : "🚫 Gagal mengambil lirik.\n\n💡 **Percobaan mencari :** {0}"
-lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghindari pencarian lirik jenis spam yang panjang."
+#Lirik 
+lyrics_1 : "**Paké :**\n\n/lyrics [Judul]" 
+lyrics_2 : "Milarian Lirik" 
+lyrics_3 : "🚫 Gagal meunangkeun deui lirik.\n\n💡 **Nyobaan neangan :** {0}" 
+lyrics_4 : "Klik tombol di handap tur meunangkeun lirik nu Anjeun keur pilari ulah panjang spam jenis pilarian lirik." 
 
-#Ping
-ping_1 : "Pong!!!!"
-ping_2 : "{0} bekerja dengan baik dengan ping dari `{1}` ms.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Py-Tgcalls klien juga memiliki ping yang bagus `{6}` ms."
-
-
-# Song
-song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Tolong mulai saya dalam obrolan pribadi."
-song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan Youtube]"
-song_3 : "Tautan Langsung Terdeteksi. Saya tidak dapat mengunduh video youtube langsung. "
-song_4 : "**🎫 Judul :**- {0}\n\nPilih jenis yang ingin Anda unduh."
-song_5 : "Bukan Tautan Youtube yang valid"
-song_6 : "Mendapatkan Format.. \n\nHarap tunggu.."
-song_7 : "Gagal mendapatkan format yang tersedia untuk video. Silakan coba trek lain."
-song_8 : "Unduh Dimulai\n\nKecepatan pengunduhan bisa lambat. Mohon tunggu sebentar.."
-song_9 : "Gagal mengunduh lagu dari Youtube-DL\n\n**Alasan :** {0}"
-song_10 : "Gagal mengunggah di telegram dari server."
-song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu sebentar.."
+#Ping 
+ping_1 : "Pong!!!!" 
+ping_2 : "{0} berpungsi sae sareng ping tina `{1}` ms.\n\nBot uptime nyaeta {2} sarta geus meakeun total {3} gudang server. Beban CPU kira-kira. {4} kalawan konsumsi {5} Ram. Klién Py-Tgcalls ogé gaduh ping `{6}` ms anu saé."
 
 # Tools - Queue
 queue_1 : "Tunggu sebentar...."
@@ -230,35 +216,35 @@ queue_4 : "🎶 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**⌛ Du
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
-stream_1 : "🎶 **Streaming** \n\n👤 **Permintaan :** {0}\n💡 **Informasi : **[Klik Disini]({1})"
-stream_2 : "🎶 **Streaming melalui Link** \n\n👤 **Diminta oleh :** {0}"
-stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Durasi** : {1}\n👤**Permintaan :** {2}"
-stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Durasi** : {2}\n👤**Permintaan :** {3}"
+stream_1 : "🎶 **Streaming** \n\n👤 **Kahoyong :** {0}\n💡 **Inpormasi : **[Klik Disini]({1})"
+stream_2 : "🎶 **Streaming Link** \n\n👤 **Kahoyong :** {0}"
+stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Durasi** : {1}\n👤**Kahoyong :** {2}"
+stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Durasi** : {2}\n👤**Kahoyong :** {3}"
 
 # Inline Buttons
 
 #General Buttons
 CLOSE_BUTTON  : "Tutup"
 CLOSEMENU_BUTTON  : "Tutup"
-BACK_BUTTON : "Kembali"
+BACK_BUTTON : "Balik"
 UNBAN_BUTTON : "Buka Blokir"
 
 #Lyrics
 L_B_1 : "Dapatkan Lirik"
 
 # Start
-S_B_1 : "Perintah"
+S_B_1 : "Parentah"
 S_B_2 : "Pengaturan"
 S_B_3 : "Support"
 S_B_4 : "Channel"
 S_B_5 : "Tambahkan"
 S_B_6 : "Git Repo"
 S_B_7 : "Pemilik"
-S_B_8 : "Menu Perintah"
+S_B_8 : "Menu Parentah"
 
 #Help 
 H_B_1 : "Admin"
-H_B_2 : "Obrolan Suara"
+H_B_2 : "Obrolan Sora"
 H_B_3 : "Bot"
 H_B_4 : "Ekstra"
 H_B_5 : "Tutup"
@@ -277,7 +263,7 @@ P_B_4 : "🎵 Putar Playlist"
 
 #Playlist
 PL_B_1 : "Putar Playlist"
-PL_B_2 : "✚ Simpan ke Daftar Putar ✚"
+PL_B_2 : "✚ Tambihkeun kana Daftar Puter ✚"
 PL_B_3 : "Tambahan"
 PL_B_4 : "Mode Putar"
 PL_B_5 : "Hapus Seluruh Daftar Putar"
