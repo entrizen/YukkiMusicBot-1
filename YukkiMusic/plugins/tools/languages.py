@@ -38,10 +38,10 @@ def lanuages_keyboard(_):
             text="🇮🇩 Jawa",
             callback_data=f"languages:jw",
        ),
-   #     InlineKeyboardButton(
-   #         text="🇦🇿 Azərbaycan",
-   #         callback_data=f"languages:az",
-  #      ),
+        InlineKeyboardButton(
+            text="🇮🇩 Sunda",
+            callback_data=f"languages:su",
+       ),
   #  )
   #  keyboard.row(
   #      InlineKeyboardButton(
