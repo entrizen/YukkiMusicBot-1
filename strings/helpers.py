@@ -153,5 +153,5 @@ HELP_4 = """🌐 Fitur Canggih
 
 /set <Waktu Dalam Detik> + <Nama Jadwal>
 
-• Untuk membuat Alarm berbasis teks.
+• Untuk membuat sesi reminder berbasis teks.
 """
