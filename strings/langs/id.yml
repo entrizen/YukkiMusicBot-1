@@ -205,7 +205,7 @@ lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghi
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "💡 Ping `{1}` ms.\n\n⏱️ Uptime : `{2}`.\n\n🖥️ Server : `{3}`.\n\n🔌 CPU : `{4}`.\n\n💽 RAM : `{5}`.\n\n📎 Py-Tgcalls : `{6}` ms."
+ping_2 : "💡 Ping `{1}` ms.\n💡 Uptime : `{2}`.\n💡 Server : `{3}`.\n💡 CPU : `{4}`.\n💡 RAM : `{5}`.\n💡 Py-Tgcalls : `{6}` ms."
 
 
 # Song
