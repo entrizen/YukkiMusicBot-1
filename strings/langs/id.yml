@@ -142,8 +142,8 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** dari saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu dan kemudian mencoba menghubungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🎶 Memproses perintah...."
-play_2 : "**🏷 Mode Putar Saluran**\n\n🎶 Memproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
+play_1 : "💡 Tunggu sebentar...."
+play_2 : "**🎫 Mode Putar Saluran**\n\nMemproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
 play_3 : "Gagal Memproses Perintah!"
 play_4 : "🖇 **Hanya Admin Mainkan**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang Dari 100 mb"
@@ -152,7 +152,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang Dari 1 GiB"
 play_10 : "**Fitur Daftar Putar Youtube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "🎫 Judul : **{0}\n\n⏳ Durasi :** {1} menit"
+play_11 : "🎫 Judul : **{0}\n\n🕰️ Durasi :** {1} menit"
 play_12 : "**Modus Putar Spotify**\n\nDiminta oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso dan Soundcloud.\n\nKamu bisa memakai /stream untuk M3u8 atau Tautan Jarak Jauh."
@@ -205,7 +205,7 @@ lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghi
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} bekerja dengan baik dengan ping dari `{1}` ms.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Py-Tgcalls klien juga memiliki ping yang bagus `{6}` ms."
+ping_2 : "💡 Ping `{1}` ms.\n\n⏱️ Uptime : `{2}`.\n\n🖥️ Server : `{3}`.\n\n🔌 CPU : `{4}`.\n\n💽 RAM : `{5}`.\n\n📎 Py-Tgcalls : `{6}` ms."
 
 
 # Song
@@ -225,14 +225,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu se
 queue_1 : "Tunggu sebentar...."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "🎶 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**⌛ Durasi :** {2}\n👤 **Ditambahkan oleh :** {3}"
-queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
+queue_4 : "📃 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**🕰️ Durasi :** {2}\n🏷️ **Ditambahkan oleh :** {3}"
+queue_5 : "Hanya ada satu track di dalam antrian, silahkan tambahkan lagi trek lainnya dan periksa"
 
 # All Streaming Lines
-stream_1 : "🎶 **Streaming** \n\n👤 **Permintaan :** {0}\n💡 **Informasi : **[Klik Disini]({1})"
-stream_2 : "🎶 **Streaming melalui Link** \n\n👤 **Diminta oleh :** {0}"
-stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Durasi** : {1}\n👤**Permintaan :** {2}"
-stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Durasi** : {2}\n👤**Permintaan :** {3}"
+stream_1 : "📀 **Streaming** \n\n🏷️ **Permintaan :** {0}\n❓ **Informasi : **[Klik Disini]({1})"
+stream_2 : "📀 **Streaming melalui Link** \n\n🏷️ **Diminta oleh :** {0}"
+stream_3 : "📀 **Streaming** \n\n**🎫 Judul :** {0}\n🕰️ **Durasi** : {1}\n🏷️**Permintaan :** {2}"
+stream_4 : "📀 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n🕰️ **Durasi** : {2}\n🏷️**Permintaan :** {3}"
 
 # Inline Buttons
 
@@ -333,7 +333,7 @@ SA_B_8 : "ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴋ​"
 
 #Queue
 QU_B_1 : "ᴅᴀꜰᴛᴀʀ ᴀɴᴛʀɪᴀɴ​"
-QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ​ {0} ᴅᴀʀɪ​ {1} menit"
+QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ​ {0} ᴅᴀʀɪ​ {1}"
 
 # Sudo Users [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Indonesia]
 
@@ -373,8 +373,8 @@ vid_4 : "Panggilan Video Dinonaktifkan"
 
 #maintenance
 maint_1 : "**Penggunaan:**\n/maintenance [enable|disable]"
-maint_2 : "Enabled untuk Pemeliharaan"
-maint_3 : "Mode Pemeliharaan Disabled"
+maint_2 : "Mode Pemeliharaan diaktifkan"
+maint_3 : "Mode Pemeliharaan dinonaktifkan"
 
 #log
 log_1 : "**Penggunaan:**\n/logger [enable|disable]"
