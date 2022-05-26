@@ -62,7 +62,7 @@ async def inline_query_handler(client, query):
 🎥**Nama Saluran :** {channel}
 📎**Link Saluran :** [Klik Disini]({channellink})
 
-__Reply with /play on this searched message to stream it on voice chat.__
+__Balas pesan ini dengan /play untuk memutar di Obrolan Suara.__
 
 ⚡️ ** Powered by Reva System**"""
             answers.append(
