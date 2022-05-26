@@ -37,15 +37,15 @@ auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
 admin_1 : "Music is already Paused."
-admin_2 : "▶️ Voicechat Paused by {}!"
+admin_2 : "🎧 Voicechat Paused by {}!"
 admin_3 : "Music is already resumed."
-admin_4 : "⏸️ Voicechat Resumed by {}!"
+admin_4 : "🎧 Voicechat Resumed by {}!"
 admin_5 : "Music is already muted."
-admin_6 : "🔈 Voicechat Muted by {}!"
+admin_6 : "🎧 Voicechat Muted by {}!"
 admin_7 : "Music is already unmuted."
-admin_8 : "🔊 Voicechat Unmuted by {}!"
-admin_9 : "⏹️ Voicechat Stopped by {}!"
-admin_10 : "⏭️ Voicechat Skipped by {}!. No More Music in Queue."
+admin_8 : "🎧 Voicechat Unmuted by {}!"
+admin_9 : "🎧 Voicechat Stopped by {}!"
+admin_10 : "🎧 Voicechat Skipped by {}!. No More Music in Queue."
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
 admin_13 : "Please use numeric numbers for specific tracks, like 1, 2 or 4 etc"
@@ -140,8 +140,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "📥 **Downloading Your Query** . . . ."
-play_2 : "**🏷Channel Play Mode**\n\n⚡ Processing Query... Please Wait!\n**Linked Channel:** {0}"
+play_1 : "💡 Wait a minute. . ."
+play_2 : "**🏷Channel Play Mode**\n\nProcessing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -150,7 +150,7 @@ play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overlo
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
 play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to play whole Youtube Playlist"
-play_11 : "🗒️ Title : **{0}\n\n⏳ Duration :** {1} Mins"
+play_11 : "🏷️ Title : **{0}\n\n🕰️ Duration :** {1} Mins"
 play_12 : "**Spotify Play Mode**\n\nRequested By:- {0}"
 play_13 : "**Apple Playlists**\n\nRequested By:- {0}"
 play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
@@ -203,7 +203,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} is working good with a ping of `{1}` ms.\n\nBot's uptime is {2} and has used a total of {3} server's storage. Cpu load is about {4} with a consumption of {5} Ram. Py-Tgcalls client is also having a good ping of `{6}` ms."
+ping_2 : "Ping `{1}` ms.\nUptime : `{2}` {3} server's storage. Cpu load is about {4} with a consumption of {5} Ram. Py-Tgcalls client is also having a good ping of `{6}` ms."
 
 
 # Song
