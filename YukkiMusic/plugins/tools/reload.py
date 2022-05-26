@@ -50,7 +50,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Failed to reload admincache. Make sure Bot is admin in your chat."
+            "Gagal memuat ulang. Pastikan bot menjadi admin."
         )
 
 
@@ -63,7 +63,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"Please Wait.. Restarting {MUSIC_BOT_NAME} for your chat.."
+        f"Database Grup sedang di mulai ulang. Tunggu sebentar...."
     )
     await asyncio.sleep(1)
     try:
@@ -72,7 +72,7 @@ async def restartbot(client, message: Message, _):
     except:
         pass
     return await mystic.edit_text(
-        "Successfully restarted. Try playing now.."
+        "✔️ Berhasil dimulai ulang...."
     )
 
 
