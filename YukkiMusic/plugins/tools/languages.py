@@ -25,21 +25,21 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
+            text="ᴇɴɢʟɪsʜ​",
             callback_data=f"languages:en",
         ),
         InlineKeyboardButton(
-           text="🇮🇩 Indonesia",
+           text="ɪɴᴅᴏɴᴇsɪᴀ​",
            callback_data=f"languages:id",
        ),
      )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇮🇩 Jawa",
+            text="ᴊᴀᴡᴀ​",
             callback_data=f"languages:jw",
        ),
         InlineKeyboardButton(
-            text="🇮🇩 Sunda",
+            text="sᴜɴᴅᴀ​",
             callback_data=f"languages:su",
        ),
   #  )
@@ -111,13 +111,13 @@ async def language_markup(client, CallbackQuery, _):
     old = await get_lang(CallbackQuery.message.chat.id)
     if str(old) == str(langauge):
         return await CallbackQuery.answer(
-            "You're already on same language", show_alert=True
+            "Kamu sudah memilih bahasa tersebut", show_alert=True
         )
     await set_lang(CallbackQuery.message.chat.id, langauge)
     try:
         _ = get_string(langauge)
         await CallbackQuery.answer(
-            "Successfully changed your language.", show_alert=True
+            "Berhasil mengganti bahasa yang dipilih", show_alert=True
         )
     except:
         return await CallbackQuery.answer(
