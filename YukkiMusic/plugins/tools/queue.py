@@ -101,12 +101,12 @@ async def ping_com(client, message: Message, _):
         if DUR == "Unknown"
         else "\nClick on button below to get whole queued list."
     )
-    cap = f"""**{config.MUSIC_BOT_NAME} Player**
+    cap = f"""**Detail Streaming**
 
-🎥**Playing:** {title}
+🎧**Judul :** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+🔗**Tipe :** {typo}
+🏷️**Permintaan :** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
@@ -203,19 +203,19 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     for x in got:
         j += 1
         if j == 1:
-            msg += f'Currently Playing:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Memutar :\n\n🎫 Judul : {x["title"]}\n🕰️ Durasi : {x["dur"]}\n🏷️ Oleh : {x["by"]}\n\n'
         elif j == 2:
-            msg += f'Queued:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Antri :\n\n🎫 Judul : {x["title"]}\n🕰️ Durasi : {x["dur"]}\n🏷️ Oleh : {x["by"]}\n\n'
         else:
-            msg += f'🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'🎫 Judul : {x["title"]}\n🕰️ Durasi : {x["dur"]}\n🏷️ Oleh : {x["by"]}\n\n'
     if "Queued" in msg:
         if len(msg) < 700:
             await asyncio.sleep(1)
             return await CallbackQuery.edit_message_text(
                 msg, reply_markup=buttons
             )
-        if "🏷" in msg:
-            msg = msg.replace("🏷", "")
+        if "🎫" in msg:
+            msg = msg.replace("🎫", "")
         link = await Yukkibin(msg)
         med = InputMediaPhoto(
             media=link, caption=_["queue_3"].format(link)
