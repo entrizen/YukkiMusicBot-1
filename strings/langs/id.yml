@@ -204,7 +204,7 @@ lyrics_3 : "🚫 Gagal mengambil lirik.\n\n💡 **Percobaan mencari :** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "Pong!!!!"
+ping_1 : "🏓 Pinging Server.."
 ping_2 : "💡 Ping `{1}` ms.\n💡 Uptime : `{2}`.\n💡 Server : `{3}`.\n💡 CPU : `{4}`.\n💡 RAM : `{5}`.\n💡 Py-Tgcalls : `{6}` ms."
 
 
