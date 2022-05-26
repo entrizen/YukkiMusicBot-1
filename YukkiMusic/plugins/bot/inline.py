@@ -47,24 +47,24 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch on Youtube",
+                            text="ʟɪʜᴀᴛ ᴅɪ ʏᴏᴜᴛᴜʙᴇ​",
                             url=link,
                         )
                     ],
                 ]
             )
             searched_text = f"""
-❇️**Title:** [{title}]({link})
+💠**Judul :** [{title}]({link})
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
+⏳**Durasi :** {duration} Mins
+👀**Penonton :** `{views}`
+⏰**Waktu Publikasi :** {published}
+🎥**Nama Saluran :** {channel}
+📎**Link Saluran :** [Klik Disini]({channellink})
 
 __Reply with /play on this searched message to stream it on voice chat.__
 
-⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
+⚡️ ** Powered by Reva System**"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
