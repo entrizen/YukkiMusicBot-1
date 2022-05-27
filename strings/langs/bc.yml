@@ -10,17 +10,17 @@ general_2 : "Ada yang salah, sayang ! Coba kamu telpon aku."
 general_3 : "Sementara **ada pengecualian** terhadap permintaan kamu. Kecuali kamu balas pesanku."
 general_4 : "Kamu adalah admin anonim! Kembalilah ke akun biasa seperti saat kita chat dulu."
 general_5 : "Kamu harus menjadi admin dengan izin **Atur Voice Chat** untuk mulai mengatur tanggal lamaran."
-general_6 : "Tidak ada streaming yang berjalan. Tapi, apakah kita bisa jalan sekarang ?"
+general_6 : "Tidak ada streaming yang berjalan, karena dia sudah berpindah lain hati."
 
 # Classes - Telegram.py
-tg_1 : "Bot sedang **kebanyakan beban** karena mikirin kabarmu.\n\n**Coba lagi dalam :** {0} (__expected time__)"
+tg_1 : "Bot sedang **kebanyakan beban** karena mikirin chatmu yang tak kunjung dibalas.\n\n**Coba lagi dalam :** {0} (__expected time__)"
 tg_2 : "Gagal mengunduh file dari telegram, tapi berhasil menaklukkan hatimu."
 
 # Core - Call.py
-call_1 : "Bot membutuhkan izin **Admin** untuk mengundang akun asisten."
-call_2 : "Asisten diblokir dari grup/channel kamu."
-call_3 : "Ada kesalahan ketika mengundang akun Asisten di grup karena kamu belum mengabariku.\n\n**Alasan** : {0}"
-call_4 : "Bot membutuhkan izin admin berupa **Undang Pengguna Melalui Tautan** untuk mengundang akun asisten ke grup Anda."
+call_1 : "Bot membutuhkan izin **Admin** untuk mengundang akun asisten ke pernikahan kita."
+call_2 : "Asisten diblokir dari grup/channel kamu, karena terciduk selingkuh."
+call_3 : "Ada kesalahan ketika mengundang akun Asisten di grup karena kamu belum membalas chatku.\n\n**Alasan** : {0}"
+call_4 : "Bot membutuhkan izin admin berupa **Undang Pengguna Melalui Tautan** untuk mengundang akun asisten ke pelaminan."
 call_5 : "Tunggu sebentar, sayang! Aku akan melamar mu dalam 5 detik....."
 call_6 : "Asisten sudah menghadiri pernikahan kita."
 call_7 : "**Peringatan**\n\nTolong hapus hak admin **LARANGAN PENGGUNA** dari bot."
@@ -37,43 +37,43 @@ auth_4 : "Pengguna dihapus dari **Daftar Mantan Sah**."
 auth_5 : "Pengguna tersebut mengghosting kamu."
 auth_6 : "Sayang! Bentar, Aku sedang mengumpulkan data mantan...."
 auth_7 : "**Daftar Mantan Sah[AUL]:**\n\n"
-auth_8 : "┗ Ditambahakan :-"
+auth_8 : "┗ Ditambahkan :-"
 
 # PLUGINS - Admins
 admin_1 : "Streaming sudah berhenti mencintainya."
-admin_2 : "❤️ Obrolan Suara dihentikan oleh {}!"
-admin_3 : "Streaming sudah dibunyikan."
-admin_4 : "❤️ Obrolan Suara dibunyikan oleh {}!"
-admin_5 : "Streaming sudah dibisukan"
-admin_6 : "❤️ Obrolan Suara dibisukan oleh {}!"
+admin_2 : "❤️ Obrolan Suara dihentikan oleh, ayang {}!"
+admin_3 : "Streaming sudah dibunyikan karena tidak peka."
+admin_4 : "❤️ Obrolan Suara dibunyikan oleh, ayang {}!"
+admin_5 : "Streaming sudah dibisukan ketika selingkuh."
+admin_6 : "❤️ Obrolan Suara dibisukan oleh, ayang {}!"
 admin_7 : "Streaming sudah dilanjutkan ke pelaminan."
-admin_8 : "❤️ Obrolan Suara dilanjutkan oleh {}!"
-admin_9 : "❤️ Obrolan Suara dihentikan oleh {}!"
-admin_10 : "❤️ Obrolan Suara dilewati oleh {}!. Tidak ada lagi kenangan bersamanya."
-admin_11 : "Ana kesalahan pas arep ngganti mode ing **{0}**\n\naGunakake /skip kanggo mbenekake."
-admin_12 : "Ora iso ngelewati trek tertentu amarga fitur **pengulangan musik** lagi aktif. Saiki nek arep mateni fitur **pengulangan musik** gunakake perintah `/loop disable`"
-admin_13 : "Monggo gunakake nomer numerik kanggo trek tertentu, contone 1, 2 utawa 4."
-admin_14 : "Paling ora kudu ana 2 trek ing antrian kanggo ngelewati ing nomer tertentu. Perikso antrian nganggo perintah /queue"
-admin_15 : "Ora cukup trek ing antrean. Monggo milih nomer antarane 1 lan {0}"
-admin_16 : "Gagal ngelewati trek tertentu.\n\nPerikso antrian nganggo perintah /queue"
-admin_17 : "{0}.. Entheni sedhela..."
-admin_18 : "**Daftar Admin** ora ketemu\n\nMonggo **muat ulang** nganggo perintah /admincache utawa /reload"
-admin_19 : "Sampeyan kudu dadi admin karo nduweni ijin admin **Kelola Obrolan Suara**.\nYen Sampeyan sampun dadi admin, muat ulang nganggo perintah /admincache"
-admin_20 : "Berhasil dimuat ulang. Daftar admin dianyari."
-admin_21 : "Ora ana antrian sek iso diacak"
-admin_22 : "Gagal mengacak.\n\nPerikso antrian : /queue"
-admin_23 : "**Antrian diacak karo {0}**\n\nPerikso antrian sing diacak : /queue"
-admin_24 : "**Gunakake :**\n/loop [enable/disable] utawa [Nomer antarane 1-10]\n\n**Contone :** /loop 5"
-admin_25 : "Fitur **pengulangan** diaktifake karo {0} kanggo **{1}** wektu. Bot saiki bakal mbaleni musik sing diputer saiki ing obrolan swara kanggo **{1}** wektu"
-admin_26 : "Monggo gunakake nomer antarane 1-10 kanggo ngacak antrian."
-admin_27 : "Fitur sampun dinonaktifkan"
-admin_28 : "**Gunakake :**\n/seek utawa /seekback [Durasi ing detik]"
-admin_29 : "Monggo gunakake detik durasi numerik, contone 10-20-30 detik kanggo nggoleki."
+admin_8 : "❤️ Obrolan Suara dilanjutkan oleh, ayang {}!"
+admin_9 : "❤️ Obrolan Suara dihentikan oleh, ayang {}!"
+admin_10 : "❤️ Obrolan Suara dilewati oleh, ayang {}!. Tidak ada lagi kenangan bersamanya."
+admin_11 : "Ada kesalahan saat mengganti ke mode **{0}**\n\naGunakan `/skip` untuk melewati mantan."
+admin_12 : "Tidak bisa melewati mantan karena fitur **pengulangan musik** sedang aktif. Matikan fitur **pengulangan musik** dengan perintah `/loop disable`"
+admin_13 : "Gunakan angka numerik, contoh 1, 2 atau 4."
+admin_14 : "Setidaknya ada 2 trek di antrian untuk melakukan skip spesifik. Gunakan perintah `/queue` untuk mengecek daftar mantan."
+admin_15 : "Antrian tidak cukup untuk dilewati, hanya tersedia antara 1 sampai {0}"
+admin_16 : "Gagal melewati rumah mantan.\n\nPeriksa rumah pacar menggunakan perintah `/queue`"
+admin_17 : "{0}.. Tunggu sebentar, sayang..."
+admin_18 : "**Daftar Pacar** tidak ditemukan\n\nSilahkan **muat ulang** menggunakan perintah `/admincache` atau `/reload`"
+admin_19 : "Kamu harus memiliki izin admin **Kelola Obrolan Suara**.\nJika sudah, gunakan perintah `/admincache` untuk memberi kode ke dia."
+admin_20 : "❤️ Berhasil dimuat ulang. Daftar pacar diperbarui."
+admin_21 : "Tidak ada rumah mantan yang bisa diacak."
+admin_22 : "Gagal mengacak.\n\nPeriksa rumah mantan menggunakan perintah `/queue`"
+admin_23 : "**Daftar Mantan telah diacak oleh {0}**\n\nLihat hasil rumah mantan yang sudah diacak dengan `/queue`"
+admin_24 : "**Gunakan :**/loop [enable/disable] atau [Nomor antara 1-10]\n\n**Contoh:** `/loop 5`"
+admin_25 : "Fitur **pengulangan** diaktifkan oleh {0} untuk **{1}** waktu. Bot sekarang akan balikan dengan si dia sebanyak **{1}** wektu"
+admin_26 : "Gunakan angka numerik antara 1-10."
+admin_27 : "Fitur **balikan sama mantan** udah dinonaktifkan"
+admin_28 : "**Gunakan :**\n/seek atau /seekback [Durasi dalam detik]"
+admin_29 : "Gunakan angka numerik, contoh 10-20-30 detik."
 admin_30 : "Maaf, tetapi Anda tidak dapat mencari streaming yang sedang diputar. Itu hanya bisa dilewati atau dihentikan."
-admin_31 : "Bot ora iso njalanke amarga wektu ne ngelewati wates. Golekno wektu sing luwih sedhela.\n\nSaiki ** {0}** menit saka **{1}** menit"
-admin_32 : "Entheni sedhela... Lagi nggoleki aliran sing lagi mlaku."
-admin_33 : "Berhasil nggoleki aliran ing {0} menit"
-admin_34 : "Gagal nggoleki aliran saiki."
+admin_31 : "Bot tidak bisa memproses karena kueri anda melebihi batas mencintainya. Cari waktu yang spesifik untuk berduaan sama dia.\n\nSekarang **{0}** menit dari **{1}** menit"
+admin_32 : "Tunggu sebentar beb... Sedang membalas chat kamu."
+admin_33 : "Berhasil menemukan rumahmu di menit {0}"
+admin_34 : "Gagal mencari rumahmu."
 
 # Bot 
 
@@ -87,7 +87,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap konversikan Anda **gr
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah masuk daftar hitam server."
 
 # Help
-help_1 : "Klik tombol dibawah ini untuk mengecek bantuan."
+help_1 : "Klik tombol dibawah ini untuk mengecek bantuan cinta."
 help_2 : "Bantuan."
 
 # Settings
@@ -134,8 +134,8 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda per
 # Play 
 
 #Play Callback 
-playcb_1 : "Iki ora kanggo awakmu! Gawe sesimu dewe."
-playcb_2 : "Lagi proses hasil liyane"
+playcb_1 : "Tombol hati ini bukan untukmu, sayang."
+playcb_2 : "Sedang memproses lamaran. . ."
 
 # Channel Play
 cplay_1 : "Anda dapat memutar musik di saluran dari obrolan ini[{0}] ke saluran mana pun atau saluran tertaut obrolan Anda.\n\n**Untuk saluran tertaut :**\n`/{1} terhubung`\n\n**Untuk saluran lainnya :**\n`/{1} [Channel ID]`"
@@ -147,8 +147,8 @@ cplay_6 : "Anda harus menjadi **Pemilik** dari saluran[{0}] untuk menghubungkann
 
 #Play
 play_1 : "💡 Sedang mencari pacar. . ."
-play_2 : "**🏷 Mode Putar Saluran**\n\n🎶 Memproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
-play_3 : "Gagal Memproses Perintah!"
+play_2 : "**🏷 Mode Putar Saluran**\n\nMemproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
+play_3 : "Gagal memproses perintah, karena dia tak kunjung peka."
 play_4 : "🖇 **Hanya Admin Mainkan**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang Dari 100 mb"
 play_6 : "**Batas Durasi Terlampaui**\n\n**Durasi yang Diizinkan: **{0} menit(s)\n**Durasi yang Diterima:** {1} jam(s)"
@@ -167,12 +167,12 @@ play_18 : "**Obrolan Suara tidak ditemukan**\n\nUntuk menggunakan perintah, haru
 
 
 #Playlist
-playlist_1 : "**Gunakake :** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\njika kamu mau untuk memainkan Daftar Putar Server Bot! Tekan tombol di bawah ini."
-playlist_2 : "Mendapatkan daftar putar Anda. Mohon tunggu"
-playlist_3 : "Anda tidak memiliki daftar putar di Server Bot."
+playlist_1 : "**Gunakan :** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\nJika kamu mau untuk memainkan Daftar Putar Server Bot! Tekan tombol di bawah ini."
+playlist_2 : "Mendapatkan daftar mantan kamu. Mohon tunggu sebentar. ."
+playlist_3 : "Anda tidak memiliki daftar mantan di Server Bot."
 playlist_4 : "Daftar Putar yang Diambil:\n\n"
 playlist_5 :  "    Durasi- {0} menit"
-playlist_6 : "Hubungi saya di PM untuk menghapus Daftar Putar."
+playlist_6 : "Hubungi saya di PM untuk menghapus kenangan bersamanya."
 playlist_7 : "Trek Di Dalam Daftar Putar: {0}\n\nTekan Tombol untuk menghapus trek tertentu di daftar putar Anda.\n\nUntuk menghapus seluruh daftar putar: Tekan tombol Del Seluruh Daftar Putar."
 playlist_8 : "Sudah ada\n\nLagu ini ada di daftar putar Anda."
 playlist_9 : "Maaf! Anda hanya dapat memiliki {0} musik dalam daftar putar."
@@ -202,13 +202,13 @@ tracks_2 : "**Kesalahan**\n\nTidak ada **{0} Top 10 Daftar putar** di server bot
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Gunakake :**\n\n/lyrics [Judul]"
-lyrics_2 : "💡 Lagi nggoleki lirik..."
-lyrics_3 : "🚫 Gagal nggoleki lirik.\n\n💡 **Jajal nggoleki :** {0}"
-lyrics_4 : "Pejet tombol ing ngisor iki kanggo njipuk lirik."
+lyrics_1 : "**Gunakan :**\n\n/lyrics [Judul]"
+lyrics_2 : "💡 Sedang melihat lirikan matamu..."
+lyrics_3 : "🚫 Gagal melihat lirikanmu.\n\n💡 **Percobaan :** {0}"
+lyrics_4 : "Tekan tombol dibawah ini untuk melirik hatiku."
 
 #Ping
-ping_1 : "Pong!!!!"
+ping_1 : "❤️ Pinging Hati. . ."
 ping_2 : "{0} bekerja dengan baik dengan ping dari `{1}` ms.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Py-Tgcalls klien juga memiliki ping yang bagus `{6}` ms."
 
 
