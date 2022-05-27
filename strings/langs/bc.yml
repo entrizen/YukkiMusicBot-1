@@ -239,30 +239,30 @@ stream_4 : "💛 **Streaming** \n\n**📜 Judul :** [{0}]({1})\n🔐 **Waktu** :
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "Tutup"
-CLOSEMENU_BUTTON  : "Tutup"
-BACK_BUTTON : "Balik"
-UNBAN_BUTTON : "Bukak Blokir"
+CLOSE_BUTTON  : "ᴛᴜᴛᴜᴘ ʜᴀᴛɪ​"
+CLOSEMENU_BUTTON  : "ᴛᴜᴛᴜᴘ ʜᴀᴛɪ​"
+BACK_BUTTON : "ᴄʟʙᴋ​"
+UNBAN_BUTTON : "ʙᴜᴋᴀ ʜᴀᴛɪ​"
 
 #Lyrics
-L_B_1 : "Dapatkan Lirik"
+L_B_1 : "ᴅᴀᴘᴀᴛᴋᴀɴ ʜᴀᴛɪɴʏᴀ​"
 
 # Start
-S_B_1 : "Pitulungan"
-S_B_2 : "Aturan"
+S_B_1 : "ᴋᴏɴsᴜʟᴛᴀsɪ ᴄɪɴᴛᴀ​"
+S_B_2 : "ᴋᴏᴍɪᴛᴍᴇɴ​"
 S_B_3 : "Support"
 S_B_4 : "Channel"
 S_B_5 : "Tambahkan"
-S_B_6 : "Pesan"
+S_B_6 : "ʜᴜʙᴜɴɢɪ ᴍᴀɴᴛᴀɴ​"
 S_B_7 : "Pemilik"
-S_B_8 : "Dhaptar Perintah"
+S_B_8 : "ᴅᴀꜰᴛᴀʀ ɢᴇʙᴇᴛᴀɴ​"
 
 #Help 
-H_B_1 : "Admin"
-H_B_2 : "Obrolan Swara"
+H_B_1 : "ᴀᴅᴍɪɴ​"
+H_B_2 : "ᴋᴇɴᴀɴɢᴀɴ​"
 H_B_3 : "Bot"
-H_B_4 : "Tambahan"
-H_B_5 : "Tutup"
+H_B_4 : "ᴄᴜʀʜᴀᴛ​"
+H_B_5 : "ᴛᴜᴛᴜᴘ ʜᴀᴛɪ​"
 H_B_6 : "Perintah Pengguna Sudo"
 
 #PlayMode
@@ -271,14 +271,14 @@ PM_B_2 : "Markup Sebaris"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 "
-P_B_2 : "🎥 "
-P_B_3 : "🏮 Mulai Streaming Langsung"
-P_B_4 : "🎵 Putar Playlist"
+P_B_1 : "ᴍᴜsɪᴋ"
+P_B_2 : "ᴠɪᴅᴇᴏ​"
+P_B_3 : "sᴛʀᴇᴀᴍ​"
+P_B_4 : "ᴘʟᴀʏʟɪsᴛ​"
 
 #Playlist
-PL_B_1 : "Putar Playlist"
-PL_B_2 : "✚ Simpen ing Dhaptar Putar ✚"
+PL_B_1 : "ᴘʟᴀʏʟɪsᴛ​"
+PL_B_2 : "✚ sɪᴍᴘᴀɴ ᴅɪ ʜᴀᴛɪ​ ✚"
 PL_B_3 : "Tambahan"
 PL_B_4 : "Mode Putar"
 PL_B_5 : "Hapus Seluruh Daftar Putar"
