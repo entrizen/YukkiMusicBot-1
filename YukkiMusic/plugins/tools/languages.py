@@ -43,20 +43,10 @@ def lanuages_keyboard(_):
             callback_data=f"languages:su",
        ),
     )
-   # keyboard.row(
-   #     InlineKeyboardButton(
-   #        text="🇮🇳 ગુજરાતી",
-   #         callback_data=f"languages:gu",
-   #    ),
-   #     InlineKeyboardButton(
-   #         text="🇹🇷 Türkiye Türkçesi",
-   #         callback_data=f"languages:tr",
-   #     ),
-   # )
-     keyboard.row(
-        InlineKeyboardButton(
-            text="🆕 ʙᴜᴄɪɴ​",
-            callback_data=f"languages:bc",
+    keyboard.row(
+         InlineKeyboardButton(
+             text="🆕 ʙᴜᴄɪɴ​",
+             callback_data=f"languages:bc",
         ),
    )
     keyboard.row(
