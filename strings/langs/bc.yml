@@ -209,14 +209,12 @@ lyrics_4 : "Tekan tombol dibawah ini untuk melirik hatiku."
 
 #Ping
 ping_1 : "❤️ Pinging Hati. . ."
-ping_2 : "{0} bekerja dengan baik dengan ping dari `{1}` ms.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Py-Tgcalls klien juga memiliki ping yang bagus `{6}` ms."
-
-
+ping_2 : "❤️ Ping `{1}` ms.\n❤️ Uptime : `{2}`.\n❤️ Server : `{3}`.\n❤️ CPU : `{4}`.\n❤️ RAM : `{5}`.\n❤️ Py-Tgcalls : `{6}` ms."
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Tolong mulai saya dalam obrolan pribadi."
 song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan Youtube]"
 song_3 : "Tautan Langsung Terdeteksi. Saya tidak dapat mengunduh video youtube langsung. "
-song_4 : "**🎫 Judul :**- {0}\n\nPilih jenis yang ingin Anda unduh."
+song_4 : "**❤️ Judul :**- {0}\n\nPilih jenis yang ingin Anda unduh."
 song_5 : "Bukan Tautan Youtube yang valid"
 song_6 : "Mendapatkan Format.. \n\nHarap tunggu.."
 song_7 : "Gagal mendapatkan format yang tersedia untuk video. Silakan coba trek lain."
@@ -227,16 +225,16 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu se
 
 # Tools - Queue
 queue_1 : "Tunggu sebentar...."
-queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
+queue_2 : "Daftar Antrian Hati kosong. Tidak ada pacar yang ditemukan"
 queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "🎶 Ditambahaken ing Antrian **#{0}\n\n🎫 Judul :** {1}\n**⌛ Wektu :** {2}\n👤 **Ditambahke karo :** {3}"
+queue_4 : "💌 Ditambahaken ing Antrian **#{0}\n\n❤️ Judul :** {1}\n**🔐 Waktu :** {2}\n💍 **Permintaan :** {3}"
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
-stream_1 : "🎶 **Streaming** \n\n👤 **Panjalukkan :** {0}\n💡 **Informasi : **[Klik Disini]({1})"
-stream_2 : "🎶 **Streaming lewat Link** \n\n👤 **Panjalukkan :** {0}"
-stream_3 : "🎶 **Streaming** \n\n**🎫 Judul :** {0}\n⌛️ **Wektu** : {1}\n👤**Panjalukkan :** {2}"
-stream_4 : "🎶 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n⌛️ **Wektu** : {2}\n👤**Panjalukkan :** {3}"
+stream_1 : "💛 **Streaming** \n\n💍 **Permintaan :** {0}\n🏷️ **Informasi : **[Klik Disini]({1})"
+stream_2 : "💛 **Streaming Link** \n\n💍 **Permintaan :** {0}"
+stream_3 : "💛 **Streaming** \n\n**📜 Judul :** {0}\n🔐 **Waktu** : {1}\n👤**Permintaan :** {2}"
+stream_4 : "💛 **Streaming** \n\n**📜 Judul :** [{0}]({1})\n🔐 **Waktu** : {2}\n👤**Permintaan :** {3}"
 
 # Inline Buttons
 
