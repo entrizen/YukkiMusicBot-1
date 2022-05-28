@@ -27,12 +27,12 @@ def PlayWrapper(command):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "👮 Under maintenance...."
+                    "👮 Under maintenance"
                 )
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "👮 Bot musik pribadi."
+                    "👮 Bot ini bersifat pribadi, kamu tidak bisa menggunakannya."
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
