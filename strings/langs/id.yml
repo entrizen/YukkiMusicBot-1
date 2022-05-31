@@ -1,4 +1,4 @@
-name : Indonesia
+if name : Indonesia
 
 # General Strings
 general_1 : "Balas ke pesan pengguna atau beri username atau id pengguna."
@@ -229,7 +229,7 @@ queue_4 : "📃 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**🕰�
 queue_5 : "Hanya ada satu track di dalam antrian, silahkan tambahkan lagi trek lainnya dan periksa"
 
 # All Streaming Lines
-stream_1 : "📀 **Streaming** \n\n🎫 Judul :**{title}\n🕰️ **Durasi :**{duration}\n🏷️ **Permintaan :** {0}\n❓ **Informasi : **[Klik Disini]({1})"
+stream_1 : "📀 **Streaming** \n\n🏷️ **Permintaan :** {0}\n❓ **Informasi : **[Klik Disini]({1})"
 stream_2 : "📀 **Streaming melalui Link** \n\n🏷️ **Diminta oleh :** {0}"
 stream_3 : "📀 **Streaming** \n\n**🎫 Judul :** {0}\n🕰️ **Durasi** : {1}\n🏷️**Permintaan :** {2}"
 stream_4 : "📀 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n🕰️ **Durasi** : {2}\n🏷️**Permintaan :** {3}"
