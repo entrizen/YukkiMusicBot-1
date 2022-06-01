@@ -32,7 +32,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, videoid):
+def stream_markup(_, videoid, vidid):
     buttons = [
         [
             InlineKeyboardButton(
@@ -41,7 +41,7 @@ def stream_markup(_, videoid):
             ),
             InlineKeyboardButton(
                 text="Detail",
-                callback_data=f"https://t.me/anotherRF_bot?start=info_{videoid}",
+                callback_data=f"https://t.me/anotherRF_bot?start=info_{vidid}",
             ),
         ],
         [
