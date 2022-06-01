@@ -7,94 +7,75 @@
 #
 # All rights reserved.
 
-HELP_1 = """👮 Admin
+HELP_1 = """
+**Menu Bantuan Admin**
 
-/pause atau /cpause
-
+`/pause` atau `/cpause`
 • Untuk menjeda streaming di Voicechat.
 
-/resume atau /cresume
-
+`/resume` atau `/cresume`
 • Untuk melanjutkan streaming yang dijeda.
 
-/mute atau /cmute
-
+`/mute` atau `/cmute`
 • Untuk membisukan streaming di Voicechat.
 
-/unmute atau /cunmute
-
+`/unmute` atau `/cunmute`
 • Untuk membunyikan streaming di Voicechat.
 
-/skip atau /cskip
-
+`/skip` atau `/cskip`
 • Untuk melewati streaming di Voicechat.
 
-/stop atau /cstop
-
+`/stop` atau `/cstop`
 • Untuk menghentikan streaming di Voicechat.
 
-/shuffle atau /cshuffle
+`/shuffle` atau `/cshuffle`
+• Untuk mengacak antrian aktif.
 
-• Untuk mengacak antrian.
-
-/skip atau /cskip <Angka>
-
+`/skip` atau `/cskip` - (angka)
 • Untuk melewati streaming secara spesifik.
 
-/loop atau /cloop <Angka>
-
+`/loop` atau `/cloop` - (angka)
 • Untuk melakukan pengulangan streaming yang diputar.
 
-/auth <Balas Pesan> atau <Username>
+`/auth` - balas pesan atau username
+• Untuk menambahkan pengguna menjadi Pengguna Resmi.
 
-• Untuk menambahkan pengguna menjadi Pengguna Resmi / AUTH.
+`/unauth` - balas pesan atau username 
+• Untuk menghapus pengguna dari Daftar Pengguna Resmi.
 
-/unauth <Balas Pesan> atau <Username>
-
-• Untuk menghapus pengguna dari Daftar Pengguna Resmi / AUTH.
-
-/authusers
-
+`/authusers`
 • Untuk memeriksa pengguna yang masuk dalam Daftar Pengguna Resmi.
 """
 
 
-HELP_2 = """🎧 Obrolan Suara
+HELP_2 = """
+** Menu Bantuan Streaming**
 
-/play <Judul> atau <Tautan>
+`/play` - Judul atau tautan
+• Untuk memutar musik ataupun video di Voicechat.
 
-• Untuk memutar musik.
+`/vplay` - Judul atau tautan 
+• Untuk memutar video di Voicechat.
 
-/vplay <Judul> atau <Tautan>
+`/cplay` - Judul atau tautan 
+• Untuk memutar streaming di Voicechat saluran.
 
-• Untuk memutar video.
-
- /cplay <Judul> atau <Tautan>
-
-• Untuk memutar streaming di Voicechat channel.
-
-/channelplay <ID Channel> atau <Username>
-
+`/channelplay` - ID Channel
 • Untuk menghubungkan grup anda dengan Voicechat channel.
 
-/playlist 
-
+`/playlist`
 • Untuk mengecek daftar putar yang anda simpan di Server Bot.
 
-/deleteplaylist
-
+`/deleteplaylist`
 • Untuk menghapus track yang ada di daftar putar yang anda simpan di Server Bot.
 
-/play
-
+`/play`
 • Untuk memutar track di daftar putar yang anda simpan di server, untuk memainkan Top 10 Lagu Trend di server, untuk mengatur mode pemutaran.
 
-/seek <Waktu Dalam Detik>
-
+`/seek` - Waktu dalam detik
 • Untuk melewati durasi sesuai perintah.
 
-/restart
-
+`/restart`
 • Untuk memulai ulang bot jika terjadi bug.
 """
 
@@ -113,45 +94,39 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 /queue or /cqueue- Check Queue List of Music.
 """
 
-HELP_4 = """🌐 Fitur Canggih
+HELP_4 = """
+**Fitur Canggih**
 
-/stats
-
+`/stats`
 • Untuk membuka statistik server bot.
 
-/lyrics <Judul>
-
+`/lyrics` - Judul
 • Untuk mencari lirik musik sesuai kueri.
 
-/song <Judul> atau <Tautan>
-
+`/song` - Judul atau tautan 
 • Untuk mengunduh lagu melalui server YouTube.
 
-/queue atau /cqueue
-
+`/queue` atau `/cqueue`
 • Untuk memeriksa antrian yang sedang berlangsung.
 
-/start
-
+`/start`
 • Untuk memulai bot.
 
-/help
-
+`/help`
 • Untuk membuka penjelasan perintah.
 
-/ping
-
+`/ping`
 • Untuk melakukan pinging server bot.
 
-/settings
-
+`/settings`
 • Untuk mengatur setelan bot.
 
-/speedtest
-
+`/speedtest`
 • Untuk melakukan tes kecepatan di web server.
 
-/set <Waktu Dalam Detik> + <Nama Jadwal>
-
+`/set` - Waktu dalam detik + Nama jadwal
 • Untuk membuat sesi reminder berbasis teks.
+
+`/helptag`
+• Untuk membuka penjelasan perintah mention member.
 """
