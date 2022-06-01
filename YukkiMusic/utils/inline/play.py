@@ -39,6 +39,10 @@ def stream_markup(_, videoid):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
+            InlineKeyboardButton(
+                text="Detail",
+                callback_data=f"https://t.me/{app.username}?start=info_{vidid}",
+            ),
         ],
         [
             InlineKeyboardButton(
