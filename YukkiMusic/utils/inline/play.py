@@ -41,7 +41,7 @@ def stream_markup(_, videoid):
             ),
             InlineKeyboardButton(
                 text="Detail",
-                callback_data=f"https://t.me/{app.username}?start=info_{vidid}",
+                callback_data=f"https://t.me/anotherRF_bot?start=info_{videoid}",
             ),
         ],
         [
