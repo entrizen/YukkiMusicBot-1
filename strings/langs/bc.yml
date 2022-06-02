@@ -224,10 +224,10 @@ song_10 : "Gagal mengunggah di telegram dari server."
 song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu sebentar.."
 
 # Tools - Queue
-queue_1 : "Tunggu sebentar...."
+queue_1 : "Tunggu sebentar, ayang...."
 queue_2 : "Daftar Antrian Hati kosong. Tidak ada pacar yang ditemukan"
 queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "💌 Ditambahaken ing Antrian **#{0}\n\n❤️ Judul :** {1}\n**🔐 Waktu :** {2}\n💍 **Permintaan :** {3}"
+queue_4 : "💌 Ditambahakan ke Hatimu **#{0}\n\n❤️ Judul :** {1}\n**🔐 Waktu :** {2}\n💍 **Permintaan :** {3}"
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
