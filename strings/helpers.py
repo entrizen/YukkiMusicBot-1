@@ -10,31 +10,31 @@
 HELP_1 = """
 **Menu Bantuan Admin**
 
-`/pause` atau `/cpause`
+`/pause` atau `/cpause` atau `/jeda`
 • Untuk menjeda streaming di Voicechat.
 
-`/resume` atau `/cresume`
+`/resume` atau `/cresume` atau `/lanjut`
 • Untuk melanjutkan streaming yang dijeda.
 
-`/mute` atau `/cmute`
+`/mute` atau `/cmute` atau `/bisu`
 • Untuk membisukan streaming di Voicechat.
 
-`/unmute` atau `/cunmute`
+`/unmute` atau `/cunmute` atau `/bunyi`
 • Untuk membunyikan streaming di Voicechat.
 
-`/skip` atau `/cskip`
+`/skip` atau `/cskip` atau `/lewat`
 • Untuk melewati streaming di Voicechat.
 
-`/stop` atau `/cstop`
+`/stop` atau `/cstop` atau `/udah`
 • Untuk menghentikan streaming di Voicechat.
 
-`/shuffle` atau `/cshuffle`
+`/shuffle` atau `/cshuffle` atau `/acak`
 • Untuk mengacak antrian aktif.
 
-`/skip` atau `/cskip` - (angka)
+`/skip` atau `/cskip` atau `/lewat` - (angka)
 • Untuk melewati streaming secara spesifik.
 
-`/loop` atau `/cloop` - (angka)
+`/loop` atau `/cloop` atau `/ulang` - (angka)
 • Untuk melakukan pengulangan streaming yang diputar.
 
 `/auth` - balas pesan atau username
@@ -51,7 +51,7 @@ HELP_1 = """
 HELP_2 = """
 ** Menu Bantuan Streaming**
 
-`/play` - Judul atau tautan
+`/play` atau `/p` - Judul atau tautan
 • Untuk memutar musik ataupun video di Voicechat.
 
 `/vplay` - Judul atau tautan 
@@ -63,16 +63,16 @@ HELP_2 = """
 `/channelplay` - ID Channel
 • Untuk menghubungkan grup anda dengan Voicechat channel.
 
-`/playlist`
+`/playlist` atau `/laguku`
 • Untuk mengecek daftar putar yang anda simpan di Server Bot.
 
-`/deleteplaylist`
+`/deleteplaylist` atau `/hapuslagu`
 • Untuk menghapus track yang ada di daftar putar yang anda simpan di Server Bot.
 
 `/play`
 • Untuk memutar track di daftar putar yang anda simpan di server, untuk memainkan Top 10 Lagu Trend di server, untuk mengatur mode pemutaran.
 
-`/seek` - Waktu dalam detik
+`/seek` atau `/mf` - Waktu dalam detik
 • Untuk melewati durasi sesuai perintah.
 
 `/restart`
@@ -90,7 +90,7 @@ HELP_4 = """
 `/stats`
 • Untuk membuka statistik server bot.
 
-`/lyrics` - Judul
+`/lyrics` atau `/lirik` - Judul
 • Untuk mencari lirik musik sesuai kueri.
 
 `/song` - Judul atau tautan 
@@ -99,16 +99,16 @@ HELP_4 = """
 `/queue` atau `/cqueue`
 • Untuk memeriksa antrian yang sedang berlangsung.
 
-`/start`
+`/start` atau `/mulai`
 • Untuk memulai bot.
 
-`/help`
+`/help` atau `/bantuan`
 • Untuk membuka penjelasan perintah.
 
 `/ping`
 • Untuk melakukan pinging server bot.
 
-`/settings`
+`/settings` atau `/atur`
 • Untuk mengatur setelan bot.
 
 `/speedtest`
