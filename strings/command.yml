@@ -12,45 +12,45 @@
 
 # Bot Commands
 PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+START_COMMAND : ["start", "mulai"]
+HELP_COMMAND : ["help", "bantuan"]
+SETTINGS_COMMAND : ["settings", "setting", "atur"]
+RELOAD_COMMAND : ["admincache", "reload", "muat"]
 GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lang", "language", "langs"]
+LANGUAGE_COMMAND : ["lang", "language", "langs", "bahasa"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "playforce", "vplayforce", "cplayforce"]
+PLAY_COMMAND : ["play", "p", "vplay", "cplay", "playforce", "vplayforce", "cplayforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+PLAYLIST_COMMAND : ["playlist", "laguku"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "hapuslagu"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
+QUEUE_COMMAND : ["queue","cqueue", "antrian", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+LYRICS_COMMAND : ["lyrics", "lirik"]
 
 
 # Admin Commands
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek"]
-RESTART_COMMAND : ["restart"]
+PAUSE_COMMAND : ["pause", "cpause", "jeda"]
+RESUME_COMMAND : ["resume", "cresume", "lanjut"]
+MUTE_COMMAND : ["mute", "cmute", "bisu"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "bunyi"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "berhenti"]
+SKIP_COMMAND : ["skip", "cskip", "lewat"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle", "acak"]
+LOOP_COMMAND : ["loop", "cloop", "ulang"]
+SEEK_COMMAND : ["seek", "cseek", "mf"]
+RESTART_COMMAND : ["restart", "muatulang"]
 
 # Sudo Users Commaands
 
