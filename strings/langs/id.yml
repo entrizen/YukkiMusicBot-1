@@ -37,15 +37,15 @@ auth_8 : "┗ Ditambahkan oleh:-"
 
 # PLUGINS - Admins
 admin_1 : "Streaming sudah dijeda."
-admin_2 : "🎧 Obrolan Suara dijeda oleh {}!"
+admin_2 : "Obrolan Suara dijeda oleh {}!"
 admin_3 : "Streaming sudah diputar."
-admin_4 : "🎧 Obrolan Suara dilanjutkan oleh {}!"
+admin_4 : "Obrolan Suara dilanjutkan oleh {}!"
 admin_5 : "Streaming sudah dibisukan."
-admin_6 : "🎧 Obrolan Suara dibisukan oleh {}!"
+admin_6 : "Obrolan Suara dibisukan oleh {}!"
 admin_7 : "Streaming sudah diputar."
-admin_8 : "🎧 Obrolan Suara diputar oleh {}!"
-admin_9 : "🎧 Obrolan Suara dihentikan oleh {}!"
-admin_10 : "🎧 Obrolan Suara dilewati oleh {}!. Tidak ada musik atau video di Antrian."
+admin_8 : "Obrolan Suara diputar oleh {}!"
+admin_9 : "Obrolan Suara dihentikan oleh {}!"
+admin_10 : "Obrolan Suara dilewati oleh {}!. Tidak ada musik atau video di Antrian."
 admin_11 : "Kesalahan saat mengubah aliran ke **{0}**\n\naGunakan /skip untuk memperbaiki."
 admin_12 : "Tidak dapat melompat ke track tertentu karena fitur **pengulangan musik** diaktifkan. Harap nonaktifkan fitur **pengulangan musik** dengan perintah `/loop disable`"
 admin_13 : "Silakan gunakan nomor numerik untuk track tertentu, contoh 1, 2 atau 4."
@@ -142,8 +142,8 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** dari saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu dan kemudian mencoba menghubungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "💡 Tunggu sebentar...."
-play_2 : "**🎫 Mode Putar Saluran**\n\nMemproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
+play_1 : "🔍"
+play_2 : "**Mode Putar Saluran**\n\nMemproses Perintah... Harap tunggu!\n**Saluran Tertaut :** {0}"
 play_3 : "Gagal Memproses Perintah!"
 play_4 : "🖇 **Hanya Admin Mainkan**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang Dari 100 mb"
@@ -152,7 +152,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang Dari 1 GiB"
 play_10 : "**Fitur Daftar Putar Youtube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "🎫 Judul : **{0}\n\n🕰️ Durasi :** {1} menit"
+play_11 : "**Judul:** {0}\n\n**Durasi:** {1} menit"
 play_12 : "**Modus Putar Spotify**\n\nDiminta oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso dan Soundcloud.\n\nKamu bisa memakai /stream untuk M3u8 atau Tautan Jarak Jauh."
@@ -192,7 +192,7 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu sedang memproses tautan.
 str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Tidak Ada Format Langsung Ditemukan"
 
 #TopPlay
-tracks_1 : "**Pengolahan {0} Top 10 Daftar putar**\nIni bisa memakan waktu beberapa menit(sekitar 3-4 menit).. Harap tunggu...\n\n**👤Diminta oleh:** {1}\n\nCheck Top 10 lagu oleh /gstats"
+tracks_1 : "**Pengolahan {0} Top 10 Daftar putar**\nIni bisa memakan waktu beberapa menit. Harap tunggu!\n\n**Permintaan:** {1}\n\nCek top 10 dengan perintah /gstats"
 tracks_2 : "**Kesalahan**\n\nTidak ada **{0} Top 10 Daftar putar** di server bot. Silakan coba daftar putar lainnya"
 
 # TOOLS
@@ -200,19 +200,19 @@ tracks_2 : "**Kesalahan**\n\nTidak ada **{0} Top 10 Daftar putar** di server bot
 #Lyrics
 lyrics_1 : "**Gunakan :**\n\n/lyrics [Judul]"
 lyrics_2 : "Mencari Lirik"
-lyrics_3 : "🚫 Gagal mengambil lirik.\n\n💡 **Percobaan mencari :** {0}"
+lyrics_3 : "Gagal mengambil lirik.\n\n**Percobaan mencari :** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan dapatkan lirik yang dicari untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "🏓 Pinging Server.."
-ping_2 : "💡 Ping `{1}` ms.\n💡 Uptime : `{2}`.\n💡 Server : `{3}`.\n💡 CPU : `{4}`.\n💡 RAM : `{5}`.\n💡 Py-Tgcalls : `{6}` ms."
+ping_2 : "Ping `{1}` ms.\nUptime : `{2}`.\nServer : `{3}`.\nCPU : `{4}`.\nRAM : `{5}`.\nPy-Tgcalls : `{6}` ms."
 
 
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Tolong mulai saya dalam obrolan pribadi."
 song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan Youtube]"
 song_3 : "Tautan Langsung Terdeteksi. Saya tidak dapat mengunduh video youtube langsung. "
-song_4 : "**🎫 Judul :**- {0}\n\nPilih jenis yang ingin Anda unduh."
+song_4 : "**Judul:**- {0}\n\nPilih jenis yang ingin Anda unduh."
 song_5 : "Bukan Tautan Youtube yang valid"
 song_6 : "Mendapatkan Format.. \n\nHarap tunggu.."
 song_7 : "Gagal mendapatkan format yang tersedia untuk video. Silakan coba trek lain."
@@ -224,15 +224,15 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan unggah bisa lambat. Mohon tunggu se
 # Tools - Queue
 queue_1 : "Tunggu sebentar...."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
-queue_3 : "<u>**Antrian Pribadi :</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "📃 Ditambahkan ke Antrian di **#{0}\n\n🎫 Judul :** {1}\n**🕰️ Durasi :** {2}\n🏷️ **Ditambahkan oleh :** {3}"
+queue_3 : "<u>**Antrian Pribadi:</u>**  [Detail Antrian]({0})"
+queue_4 : "Ditambahkan ke Antrian di #{0}\n\n**Judul:** {1}\n**Durasi:** {2}\n**Permintaan:** {3}"
 queue_5 : "Hanya ada satu track di dalam antrian, silahkan tambahkan lagi trek lainnya dan periksa"
 
 # All Streaming Lines
-stream_1 : "📀 **Streaming** \n\n🏷️ **Permintaan :** {0}\n❓ **Informasi : **[Klik Disini]({1})"
-stream_2 : "📀 **Streaming melalui Link** \n\n🏷️ **Diminta oleh :** {0}"
-stream_3 : "📀 **Streaming** \n\n**🎫 Judul :** {0}\n🕰️ **Durasi** : {1}\n🏷️**Permintaan :** {2}"
-stream_4 : "📀 **Streaming** \n\n**🎫 Judul :** [{0}]({1})\n🕰️ **Durasi** : {2}\n🏷️**Permintaan :** {3}"
+stream_1 : "`Streaming` \n\n**Permintaan:** {0}\n**Informasi : **[Klik Disini]({1})"
+stream_2 : "`Streaming melalui Link` \n\n**Permintaan:** {0}"
+stream_3 : "`Streaming` \n\n**Judul:** {0}\n**Durasi**: {1}\n**Permintaan:** {2}"
+stream_4 : "`Streaming` \n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Permintaan:** {3}"
 
 # Inline Buttons
 
@@ -366,13 +366,13 @@ black_7 : "**Obrolan Daftar Hitam:**\n\n"
 black_8 : "Tidak Ada Obrolan Daftar Hitam"
 
 #videolimit
-vid_1 : "**Penggunaan:**\n/set_video_limit [Jumlah obrolan yang diizinkan] atau [Disable]"
+vid_1 : "**Gunakan:**\n/set_video_limit [Jumlah obrolan yang diizinkan] atau [Disable]"
 vid_2 : "Silakan Gunakan Angka Numerik untuk Menetapkan Batas."
 vid_3 : "Batas Maksimum Panggilan Video Ditetapkan ke {0} Obrolan."
 vid_4 : "Panggilan Video Dinonaktifkan"
 
 #maintenance
-maint_1 : "**Penggunaan:**\n/maintenance [enable|disable]"
+maint_1 : "**Gunakan:**\n/maintenance [enable|disable]"
 maint_2 : "Mode Pemeliharaan diaktifkan"
 maint_3 : "Mode Pemeliharaan dinonaktifkan"
 
@@ -387,7 +387,7 @@ vidmode_2 : "Mode Putar Video ditetapkan sebagai pengunduh. Bot akan mengunduh t
 vidmode_3 : "Mode Putar Video ditetapkan sebagai m3u8. Bot akan memutar trek secara langsung sekarang."
 
 #broadcast
-broad_1 : "**Pesan Siaran Dalam {0}  Mengobrol dengan {1} Pin dari Bot.**"
+broad_1 : "**Pesan Siaran telah terkirim ke {0} grup dengan {1} Pin dari Bot.**"
 broad_2 : "Memulai Siaran Asisten..."
 broad_3 : "**Siaran Asisten:**\n\n"
 broad_4 : "Asisten {0} Disiarkan di {1} obrolan\n"
@@ -413,8 +413,8 @@ heroku_14 : "Kesalahan Perintah Git"
 heroku_15 : "Repositori Git Tidak Valid"
 
 #Private bot mode
-pbot_1 : "**Penggunaan:**\n/authorize [CHAT_ID]"
-pbot_2 :  "**Penggunaan:**\n/unauthorize [CHAT_ID]"
+pbot_1 : "**Gunakan:** /authorize [CHAT_ID]"
+pbot_2 :  "**Gunakan:** /unauthorize [CHAT_ID]"
 pbot_3 : "Menambahkan obrolan yang diberikan ke daftar resmi"
 pbot_4 : "Dihapus obrolan yang diberikan dari daftar resmi"
 pbot_5 : "Obrolan sudah ada di daftar resmi"
@@ -433,13 +433,13 @@ gban_1 : "Anda ingin nge-gban sendiri? Betapa bodohnya!"
 gban_2 : "Haruskah saya memblokir diri saya sendiri?? Tertawa terbahak-bahak"
 gban_3 : "Anda ingin memblokir pengguna sudo?"
 gban_4 : "{0} sudah **gbanned** dari bot."
-gban_5 : "**Menginisialisasi Larangan Gobal pada {0}**\n\nWaktu yang diharapkan : {1}."
-gban_6 : "**Gbanned Berhasil**\n\nBanned **{0}** dari **{1}** obrolan."
-gban_7 : "{0} tidak **gbanned **belum dari bot."
-gban_8 : "**Ungbanning {0}**\n\nWaktu yang diharapkan : {1}."
+gban_5 : "**Menginisialisasi Larangan Gobal pada {0}**\n\nWaktu yang dibutuhkan: {1}."
+gban_6 : "**Pemblokiran Berhasil**\n\n**{0}** telah diblokir di **{1}** obrolan."
+gban_7 : "{0} tidak **diblokir** dari server bot."
+gban_8 : "**Membuka blokiran dari {0}**\n\nWaktu yang dibutuhkan: {1}."
 gban_9 : "**UnGbanned Berhasil**\n\nUnbanned **{0}** di dalam **{1}** obrolan."
 gban_10 : "Tidak ada Gbanned Pengguna Ditemukan."
-gban_11 : "Mohon tunggu sebentar.. Mengambil daftar pengguna Gbanned"
+gban_11 : "Mohon tunggu sebentar.. Mengambil Daftar Hitam."
 
 #Suggestions
 sug_0 : "❓**Tahukah Anda??**\n\n✅ "
