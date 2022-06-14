@@ -81,7 +81,37 @@ HELP_2 = """
 
 
 HELP_3 = """
-Under Maintenance
+**Panduan Dasar**
+
+• Tambahkan bot ini ke grup atau channel dan berikan izin admin.
+• Cek menu `/help` untuk mendapatkan informasi perintah.
+• Jika akun asisten tidak bergabung otomatis silahkan hubungi @justcontactbot.
+• Jika akun asisten tidak bergabung di Voicechat, lakukan `/restart` untuk me-refresh.
+
+
+**Panduan Lanjutan**
+
+• Kamu dapat memutar musik dalam dua **mode pencarian**. Mode Langsung dan Mode Manual. Ubah mode melalui `/playmode`.
+• Kamu dapat memutar musik dalam dua **jenis bermain**. Mode Member dan Mode Admin. Ubah mode melalui `/playmode`.
+• Kamu Anda dapat memutar musik di **saluran** juga. Atur channel_id melalui `/channelplay` dan bermain melalui `/cplay`.
+• Kamu bisa mengizinkan member untuk menggunakan perintah admin. Gunakan `/auth` untuk menambahkan, dan `/unauth` untuk menghapus.
+• Kamu bisa mengatur fitur mode bersih pada bot. Nonaktifkan jika ingin pesan dari bot tetap ada. Pesan akan otomatis dihapus setelah 5 jam. Gunakan perintah `/cleanmode`.
+• Kamu bisa memutar playlist pribadi yang tersimpan di **Spotify**. Gunakan perintah `/play` - Tautan.
+• Kamu bisa memutar **Video** di Obrolan Suara melalui YouTube maupun File Lokal Telegram. Gunakan perintah `/vplay` - Judul Video | Balas file.
+• Kamu bisa mengatur **Kualitas Audio** dan **Kualitas Video** obrolan suara ke Rendah, Sedang atau Tinggi. Atur dengan perintah `/settings`.
+• Kamu bisa memeriksa tren pada server. Gunakan perintah `/gstats`.
+• Kamu bisa membisukan dan membunyikan streaming. Gunakan perintah `/bisu` atau `/bunyi`.
+• Kamu bisa mencari lirik musik. Gunakan perintah `/lirik' - Judul.
+• Kamu bisa mengunduh musik di YouTube Server. Gunakan perintah `/song` - Judul atau tautan.
+• Kamu bisa memutar musik dan video yang sudah disimpan di server bot. Gunakan perintah `/play`
+• Kamu bisa mengacak antrian yang berlangsung. Gunakan perintah `/acak`.
+• Kamu bisa melihat antrian yang sedang berlangsung. Gunakan perintah `/antrian`.
+• Kamu bisa merubah bahasa sesuai selera. Gunakan perintah `/bahasa`.
+• Kamu bisa melakukan perintah stream secara paksa, itu akan menghentikan track yang berjalan sementara. Gunakan perintah `/playforce` - Judul.
+
+Diperbarui pada Selasa, 14 Juni 2022 - 12.20 WIB.
+⚡ Powered by Reva System.
+
 """
 
 HELP_4 = """
