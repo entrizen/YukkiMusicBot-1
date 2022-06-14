@@ -101,7 +101,7 @@ HELP_3 = """
 • Kamu bisa mengatur **Kualitas Audio** dan **Kualitas Video** obrolan suara ke Rendah, Sedang atau Tinggi. Atur dengan perintah `/settings`.
 • Kamu bisa memeriksa tren pada server. Gunakan perintah `/gstats`.
 • Kamu bisa membisukan dan membunyikan streaming. Gunakan perintah `/bisu` atau `/bunyi`.
-• Kamu bisa mencari lirik musik. Gunakan perintah `/lirik' - Judul.
+• Kamu bisa mencari lirik musik. Gunakan perintah `/lirik` - Judul.
 • Kamu bisa mengunduh musik di YouTube Server. Gunakan perintah `/song` - Judul atau tautan.
 • Kamu bisa memutar musik dan video yang sudah disimpan di server bot. Gunakan perintah `/play`
 • Kamu bisa mengacak antrian yang berlangsung. Gunakan perintah `/acak`.
