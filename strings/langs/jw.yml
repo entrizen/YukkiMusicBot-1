@@ -233,10 +233,11 @@ queue_4 : "Ditambahaken ing Antrian **#{0}\n\nJudul :** {1}\n**Wektu :** {2}\n**
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
-stream_1 : "`Streaming` \n\n**Panjalukkan:** {0}\n**Informasi: **[Klik Disini]({1})"
-stream_2 : "`Streaming lewat Link** \n\n**Panjalukkan:** {0}"
-stream_3 : "`Streaming` \n\n**Judul:** {0}\n**Wektu** : {1}\n**Panjalukkan:** {2}"
-stream_4 : "`**Streaming` \n\n**Judul:** [{0}]({1})\n**Wektu** : {2}\n**Panjalukkan:** {3}"
+stream_1 : "`Streaming` \n\n**Judul:** {0}\n**Wektu:** {1}\n**Panjalukkan:** {2}\n**Informasi: **[Pencet Mriki]({3})"
+stream_2 : "`Streaming lewat Link** \n\n**Disuwun:** {0}"
+stream_3 : "`Streaming` \n\n**Judul:** {0}\n**Wektu:** {1}\n**Panjalukkan:** {2}"
+stream_4 : "`Streaming` \n\n**Judul:** [{0}]({1})\n**Wektu** : {2}\n**Panjalukkan:** {3}"
+stream_5 : "`Streaming` \n\n**Judul:** {0}\n**Disuwun:** {1}\n**Info:** [Pencet Mriki]({2})"
 
 # Inline Buttons
 
