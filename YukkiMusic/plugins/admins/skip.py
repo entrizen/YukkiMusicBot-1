@@ -127,7 +127,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         await message.reply_photo(
             photo=img,
-            caption=_["stream_1"].format(
+            caption=_["stream_3"].format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -154,7 +154,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         await message.reply_photo(
             photo=img,
-            caption=_["stream_1"].format(
+            caption=_["stream_3"].format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -204,7 +204,7 @@ async def skip(cli, message: Message, _, chat_id):
             img = await gen_thumb(videoid)
             await message.reply_photo(
                 photo=img,
-                caption=_["stream_1"].format(
+                caption=_["stream_3"].format(
                     user,
                     f"https://t.me/{app.username}?start=info_{videoid}",
                 ),
