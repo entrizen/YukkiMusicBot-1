@@ -233,6 +233,7 @@ stream_1 : "`Streaming` \n\n**Judul:** {0}\n**Durasi:** {1}\n**Permintaan:** {2}
 stream_2 : "`Streaming melalui Link` \n\n**Permintaan:** {0}"
 stream_3 : "`Streaming` \n\n**Judul:** {0}\n**Durasi**: {1}\n**Permintaan:** {2}"
 stream_4 : "`Streaming` \n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Permintaan:** {3}"
+stream_5 : "`Streaming` \n\n**Judul:** {0}\n**Permintaan:** {1}\n**Informasi: **[Klik Disini]({2})"
 
 # Inline Buttons
 
