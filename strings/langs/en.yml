@@ -229,7 +229,7 @@ stream_1 : "`Streaming` \n\n**Title:** {0}\n**Duration:** {1}\n**Request:** {2}\
 stream_2 : "`Streaming via URL` \n\n**Request:** {0}"
 stream_3 : "`Streaming` \n\n**Title:** {0}\n**Duration**: {1}\n**Request:** {2}"
 stream_4 : "`Streaming`\n\n**Title:** [{0}]({1})\n**Duration**: {2}\n**Request:** {3}"
-stream_5 : "`Streaming`\n\n**Title:** {0}\n**Request:** {1}\n**Detail: **[Click Here]**({2})"
+stream_5 : "`Streaming`\n\n**Title:** {0}\n**Request:** {1}\n**Detail: **[Click Here]({2})"
 
 # Inline Buttons
 
