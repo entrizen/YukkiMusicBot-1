@@ -208,8 +208,8 @@ lyrics_3 : "Gagal nggoleki lirik.\n\n**Jajal nggoleki :** {0}"
 lyrics_4 : "Pejet tombol ing ngisor iki kanggo njipuk lirik."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "{0} bekerja dengan baik dengan ping dari `{1}` ms.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Py-Tgcalls klien juga memiliki ping yang bagus `{6}` ms."
+ping_1 : "🏓 Pinging Server.."
+ping_2 : "Ping `{1}` ms.\nUptime : `{2}`.\nServer : `{3}`.\nCPU : `{4}`.\nRAM : `{5}`.\nPy-Tgcalls : `{6}` ms."
 
 
 # Song
