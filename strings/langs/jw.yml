@@ -233,57 +233,57 @@ queue_4 : "Ditambahaken ing Antrian **#{0}\n\nJudul :** {1}\n**Wektu :** {2}\n**
 queue_5 : "Hanya ada satu track di dalam antrian, Silakan tambahkan lagi ke daftar periksa"
 
 # All Streaming Lines
-stream_1 : "`Streaming` \n\n**Judul:** {0}\n**Wektu:** {1}\n**Panjalukkan:** {2}\n**Informasi: **[Pencet Mriki]({3})"
+stream_1 : "`Streaming` \n\n**Judhul:** {0}\n**Wektu:** {1}\n**Disuwun:** {2}\n**Info: **[Pencet Mriki]({3})"
 stream_2 : "`Streaming lewat Link** \n\n**Disuwun:** {0}"
-stream_3 : "`Streaming` \n\n**Judul:** {0}\n**Wektu:** {1}\n**Panjalukkan:** {2}"
-stream_4 : "`Streaming` \n\n**Judul:** [{0}]({1})\n**Wektu** : {2}\n**Panjalukkan:** {3}"
-stream_5 : "`Streaming` \n\n**Judul:** {0}\n**Disuwun:** {1}\n**Info:** [Pencet Mriki]({2})"
+stream_3 : "`Streaming` \n\n**Judhul:** {0}\n**Wektu:** {1}\n**Disuwun:** {2}"
+stream_4 : "`Streaming` \n\n**Judhul:** [{0}]({1})\n**Wektu** : {2}\n**Disuwun:** {3}"
+stream_5 : "`Streaming` \n\n**Judhul:** {0}\n**Disuwun:** {1}\n**Info:** [Pencet Mriki]({2})"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "Tutup"
-CLOSEMENU_BUTTON  : "Tutup"
-BACK_BUTTON : "Balik"
-UNBAN_BUTTON : "Bukak Blokir"
+CLOSE_BUTTON  : "ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "ᴛᴜᴛᴜᴘ​"
+BACK_BUTTON : "ʙᴀʟɪᴋ​"
+UNBAN_BUTTON : "ʙᴜᴋᴀᴋ ʙʟᴏᴋɪʀ​"
 
 #Lyrics
-L_B_1 : "Dapatkan Lirik"
+L_B_1 : "ɴᴅᴇʟᴏᴋ ʟɪʀɪᴋ​"
 
 # Start
-S_B_1 : "Pitulungan"
-S_B_2 : "Aturan"
+S_B_1 : "ᴘɪᴛᴜʟᴜɴɢᴀɴ​"
+S_B_2 : "ᴀᴛᴜʀᴀɴ​"
 S_B_3 : "Support"
 S_B_4 : "Channel"
 S_B_5 : "Tambahkan"
-S_B_6 : "Pesan"
+S_B_6 : "ᴘᴇsᴇɴ​"
 S_B_7 : "Pemilik"
-S_B_8 : "Dhaptar Perintah"
+S_B_8 : "ᴅʜᴀꜰᴛᴀʀ ᴘᴇʀɪɴᴛᴀʜ​"
 
 #Help 
-H_B_1 : "Admin"
-H_B_2 : "Obrolan Swara"
-H_B_3 : "Bot"
-H_B_4 : "Tambahan"
-H_B_5 : "Tutup"
+H_B_1 : "ᴀᴅᴍɪɴ​"
+H_B_2 : "ᴏʙʀᴏʟᴀɴ sᴡᴀʀᴀ​"
+H_B_3 : "ʙᴏᴛ​"
+H_B_4 : "ᴛᴀᴍʙᴀʜᴀɴ​"
+H_B_5 : "ᴛᴜᴛᴜᴘ​"
 H_B_6 : "Perintah Pengguna Sudo"
 
 #PlayMode
-PM_B_1 : "Putar Langsung"
-PM_B_2 : "Markup Sebaris"
+PM_B_1 : "ᴏᴛᴏᴍᴀᴛɪs​"
+PM_B_2 : "ᴍᴀɴᴜᴀʟ​"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 "
-P_B_2 : "🎥 "
-P_B_3 : "🏮 Mulai Streaming Langsung"
-P_B_4 : "🎵 Putar Playlist"
+P_B_1 : "ʟᴀɢᴜ​"
+P_B_2 : "ᴠɪᴅᴇᴏ​"
+P_B_3 : "ᴍᴜʟᴀɪ sᴛʀᴇᴀᴍɪɴɢ​"
+P_B_4 : "ᴅʜᴀꜰᴛᴀʀ ᴘᴜᴛᴀʀ​"
 
 #Playlist
-PL_B_1 : "Putar Playlist"
-PL_B_2 : "✚ Simpen ing Dhaptar Putar ✚"
+PL_B_1 : "ᴅʜᴀꜰᴛᴀʀ ᴘᴜᴛᴀʀ​"
+PL_B_2 : "✚ sɪᴍᴘᴇɴ​ ✚"
 PL_B_3 : "Tambahan"
-PL_B_4 : "Mode Putar"
+PL_B_4 : "ᴍᴏᴅᴇ ᴘᴜᴛᴀʀ​"
 PL_B_5 : "Hapus Seluruh Daftar Putar"
 PL_B_6 : "Hapus Daftar Putar"
 PL_B_7 : "Ya saya yakin. Hapus"
